@@ -1,48 +1,60 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
+      "description_header": "Hola",
       "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "skills": "Tecnologías",
+        "experience": "Experiencia",
+        "contact": "Contacto"
       }
+    },
+    "navbar": {
+      "home": "Inicio",
+      "about": "Sobre mi",
+      "projects": "Proyectos",
+      "skills": "Tecnologías",
+      "experience": "Experiencia",
+      "contact": "Contacto"
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Pokemon-App",
+        "startDate": "11/2021 - 12/2021",
+        "description": "Creación de una SPA (Single Page Application), con temática \"Pokemon\", la cual por un lado, trae información de una API, y por otro lado cuenta con una base de datos a través de la cual el usuario puede crear, editar o eliminar sus propios pokemons. La app permite buscar, filtrar, ordenar y agregar a favoritos los distintos pokemons.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/pokemon-app/p1.png",
+          "images/portfolio/pokemon-app/p2.png",
+          "images/portfolio/pokemon-app/p3.png",
+          "images/portfolio/pokemon-app/p4.png"
         ],
-        "url": "",
+        "url": "https://pokemon-app-front.vercel.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-express-original",
+            "name": "Express.js"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-postgresql-plain",
+            "name": "Postgresql"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Work-App",
+        "startDate": "01/2022 - 02/2022",
+        "description": "Elaboración con un equipo de trabajo de 6 integrantes de una página web cuyo objetivo es conectar personas que ofrecen servicios a pequeña escala (tales como carpintería, construcción, etc), con los potenciales clientes de la misma, facilitando y acelerando la posibilidad tanto de ser contratado como de encontrar un trabajador que coincida con mis necesidades. El usuario puede postear solicitudes de servicio, contactar con trabajadores de su interés, ofrecer sus servicios a otros usuarios solicitantes, recibir alertas de empleo, entre otros.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/work-app/p1.png",
+          "images/portfolio/work-app/p2.png",
+          "images/portfolio/work-app/p3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://work-app-front-lime.vercel.app/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,30 +63,10 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-firebase-original",
+            "name": "Firebase"
           }
         ]
       }
@@ -112,5 +104,20 @@
           "DHTMLX Gantt"
         ]
       }
-    ]
+    ],
+    "contact": {
+      "formTitle": "Envía un mensaje",
+      "labels": [
+        "Tu nombre",
+        "Por favor introduzca al menos 4 caracteres",
+        "Tu email",
+        "Asunto",
+        "Mensaje"
+      ],
+      "submit": "Enviar Mensaje",
+      "success": "Tu mensaje fue enviado. ¡Gracias!",
+      "error": "Ocurrió un error. Por favor intenta de nuevo.",
+      "title": "Mis redes",
+      "description": "Si quieres hablarme de alguna propuesta, proyecto, o simplemente saludarme, estaría encantado de escucharte. Simplemente llena el formulario y enviame un email."
+    }
   }

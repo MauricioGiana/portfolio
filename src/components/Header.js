@@ -31,7 +31,7 @@ class Header extends Component {
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
-      return <Typical className="title-styles" steps={this.titles} loop={50} />
+      return <Typical className="title-styles" steps={this.titles} loop={2} wrapper="b" />
     }, (props, prevProp) => true);
 
     return (
@@ -39,7 +39,8 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <img style={{height: "150px"}} src="images/devlogo.svg" alt="logo" className="devlogo" />
+              {/* <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span> */}
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
@@ -58,7 +59,7 @@ class Header extends Component {
                 uncheckedIcon={
                   <span
                     className="iconify"
-                    data-icon="twemoji:owl"
+                    data-icon="emojione-monotone:crescent-moon"
                     data-inline="false"
                     style={{
                       display: "block",
