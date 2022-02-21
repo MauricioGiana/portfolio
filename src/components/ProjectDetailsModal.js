@@ -30,7 +30,13 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
+            return <div key={i} className="project-img-box-2">
+              <img
+                src={elem}
+                alt="projectImage"
+                style={{maxWidth: "100%", maxHeight: "100%"}}
+              />
+            </div>
           });
         }
       }

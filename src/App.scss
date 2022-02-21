@@ -90,13 +90,14 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #a4b4fd;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #beccff;
 	height: 25px;
 }
+
 
 .slider-iconfiy {
 	margin-top: 10px;
@@ -122,12 +123,7 @@ header h1 {
 	text-align: center;
 }
 
-.foto img {
-	display: block;
-	width: 100%;
-}
-
-.foto div {
+.project-box {
 	background: #ffffff;
 	display: inline-block;
 	margin: 0 auto 5% auto;
@@ -144,7 +140,7 @@ header h1 {
 	position: relative;
 }
 
-.foto div:after {
+.project-box:after {
 	color: #333;
 	font-size: 25px;
 	content: attr(title);
@@ -152,7 +148,7 @@ header h1 {
 	top: 15px;
 }
 
-.foto div:hover {
+.project-box:hover {
 	-webkit-transform: scale(1.01);
 	-moz-transform: scale(1.01);
 	transform: scale(1.01);
@@ -160,6 +156,21 @@ header h1 {
 	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 	-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+.project-img-box {
+	width: 100%;
+	height: 230px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #696969;
+}
+
+.foto img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .project-title-settings {
@@ -524,7 +535,7 @@ footer a:focus {
   }
   
   .navbar-b.navbar-trans .nav-link:hover {
-	color: white;
+	color: #1f7a8c;
   }
   
   .navbar-b.navbar-trans .show > .nav-link,
@@ -540,22 +551,22 @@ footer a:focus {
   }
   
   .navbar-b.navbar-reduce .nav-link {
-	color: #0078ff;
+	color: black;
   }
   
   .navbar-b.navbar-reduce .nav-link:before {
-	background-color: #0078ff;
+	background-color: black;
   }
   
   .navbar-b.navbar-reduce .nav-link:hover {
-	color: #0078ff;
+	color: #1f7a8c;
   }
   
   .navbar-b.navbar-reduce .show > .nav-link,
   .navbar-b.navbar-reduce .active > .nav-link,
   .navbar-b.navbar-reduce .nav-link.show,
   .navbar-b.navbar-reduce .nav-link.active {
-	color: #0078ff;
+	color: black;
   }
   
   .navbar-b.navbar-reduce .navbar-brand {
@@ -606,7 +617,7 @@ footer a:focus {
   
   @media (max-width: 767px) {
 	.navbar-collapse {
-	  padding-top: 15px;
+	  padding-left: 12px;
 	}
   }
   
@@ -710,15 +721,15 @@ footer a:focus {
 
 .lang-container {
 	display: flex;
-	background-color: rgba(133, 138, 227, 0.4);
+	background-color: #858ae3;
 	gap: 2rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	border-radius: 1rem;
 }
 
-.lang-icon:hover {
-	opacity: .8;
+.language-icon:hover {
+	opacity: 0.7;
 }
 
 
@@ -727,7 +738,7 @@ footer a:focus {
 
 #contact {
 	background: #a4b4fd;
-	padding-bottom: 8rem;
+	padding-bottom: 4rem;
 }
 
 @media (max-width: 767px) {
@@ -739,6 +750,17 @@ footer a:focus {
 .contact-container {
 	background-color: rgb(248, 248, 248);
 	padding: 2rem;
+}
+
+@media (max-width: 600px) {
+	.contact-container {
+		background: none;
+	}
+}
+
+.contact-title {
+	color: black;
+	padding-bottom: 0;
 }
 
 #sendmessage {
@@ -800,13 +822,13 @@ footer a:focus {
   }
   
   .button:hover {
-	background-color: #0062d3;
+	background-color: #00a6a6;
 	color: #fff;
 	transition: all 500ms ease;
   }
   
   .button-a {
-	background-color: #0078ff;
+	background-color: #7b2cbf;
 	color: #fff;
 	border-color: #cde1f8;
   }
@@ -845,14 +867,14 @@ footer a:focus {
 	border-radius: 50%;
 	line-height: 40px;
 	margin: 0 15px 0 0;
-	box-shadow: 0 0 0 3px #0078ff;
+	box-shadow: 0 0 0 3px #400970;
 	transition: all 500ms ease;
   }
   
   .socials .ico-circle:hover {
-	background-color: #0360ca;
+	background-color: #400970;
 	color: #fff;
-	box-shadow: 0 0 0 3px #cde1f8;
+	box-shadow: 0 0 0 3px #8f31e0;
 	transition: all 500ms ease;
   }
 
@@ -889,9 +911,11 @@ footer a:focus {
 	line-height: 1.55;
 	margin: 0 auto;
 	text-align: center;
-	box-shadow: 0 0 0 10px #0078ff;
+	box-shadow: 0 0 0 10px #400970;
 	display: block;
+	color: #400970;
   }
+
 
 
   

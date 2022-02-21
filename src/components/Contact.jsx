@@ -13,7 +13,7 @@ class Contact extends React.Component {
 
       return (
         <section id="contact">
-          <h1 id="contact" className="section-title" style={{ color: "black" }}>
+          <h1 className="section-title contact-title">
             <span>{this.sectionName}</span>
           </h1>
           <div className="container">

@@ -28,7 +28,7 @@ class SwitchTheme extends Component {
           checked={this.state.checked}
           onChange={this.onThemeSwitchChange}
           offColor="#858ae3"
-          onColor="#353535"
+          onColor="#0c1821"
           className="react-switch mx-auto"
           width={90}
           height={40}

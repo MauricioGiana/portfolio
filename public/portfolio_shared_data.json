@@ -12,6 +12,11 @@
           "name": "linkedin",
           "url": "https://linkedin.com/in/mauricio-giana-dev",
           "class": "fab fa-linkedin"
+        },
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/+5492634256370",
+          "class": "fab fa-whatsapp"
         }
       ],
       "image": "myProfile.png"

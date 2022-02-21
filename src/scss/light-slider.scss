@@ -3,7 +3,8 @@ $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #D7CAAA;
+$organic-arrow-color: #274c77;
+$organic-arrow-boder: 1px solid #a3cef1;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -14,9 +15,9 @@ $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
 $loader-bar-color:#BFAA76;
 $loader-bar-height: 6px;
-$control-bullet-color: #D7CAAA;
-$control-bullet-active-color: #D7CAAA;
-$content-background-color: #D7CAAA;
+$control-bullet-color: #a4b4fd;
+$control-bullet-active-color: #8597e7;
+$content-background-color: #beccff;
 
 %fill-parent {
   display: block;
@@ -58,6 +59,7 @@ $content-background-color: #D7CAAA;
   --transition-bezier: #{$transition-bezier};
   --slider-transition-duration: #{$slider-transition-duration};
   --organic-arrow-color: #{$organic-arrow-color};
+  --organic-arrow-boder: #{$organic-arrow-boder};
   --organic-arrow-border-radius: #{$organic-arrow-border-radius};
   --control-bullet-color: #{$control-bullet-color};
   --control-bullet-active-color: #{$control-bullet-active-color};
@@ -318,6 +320,7 @@ $content-background-color: #D7CAAA;
       border-radius: var(--organic-arrow-border-radius);
       width: var(--organic-arrow-thickness);
       background-color: var(--organic-arrow-color);
+      border: var(--organic-arrow-boder);
       transition: transform 0.15s ease-out, background-color 0.15s ease-out;
     }
     &:before {
@@ -382,11 +385,13 @@ $content-background-color: #D7CAAA;
         &:before {
           opacity: 1;
           transform: rotate(30deg);
+          border: var(--organic-arrow-boder);
         }
 
         &:after {
           opacity: 1;
           transform: rotate(-30deg);
+          border: var(--organic-arrow-boder);
         }
       }
       .#{$root-element}__controls__arrow-right {
