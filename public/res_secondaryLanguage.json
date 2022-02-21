@@ -10,6 +10,10 @@
         "soft": "Habilidades blandas",
         "experience": "Experiencia",
         "contact": "Contacto"
+      },
+      "download_cv": {
+        "title": "Descargar CV",
+        "link": ""
       }
     },
     "navbar": {

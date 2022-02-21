@@ -4,11 +4,13 @@ import Switch from "react-switch";
 
 class Header extends Component {
   titles = [];
+  downloadCv = {};
 
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      this.downloadCv = this.props.sharedData.downloadCv;
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
@@ -29,6 +31,7 @@ class Header extends Component {
                 <HeaderTitleTypeAnimation />
               </div>
             </div>
+            <button>{}</button>
           </div>
         </div>
       </header>
