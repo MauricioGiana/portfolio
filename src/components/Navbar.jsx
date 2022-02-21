@@ -103,7 +103,6 @@ class Navbar extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <div style={{height: "15px"}} />
                 <a className="nav-link js-scroll active" href="#home">
                   {
                     this.props.resumeData ? this.props.resumeData.home : "Home"

@@ -619,6 +619,11 @@ footer a:focus {
 	.navbar-collapse {
 	  padding-left: 12px;
 	}
+	.navbar-collapse::before {
+		content: "";
+		display: block;
+		height: 15px;
+	  }
   }
   
   /* Hamburger Navbar */
