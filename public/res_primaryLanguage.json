@@ -1,11 +1,13 @@
 {
     "basic_info": {
-      "description_header": "Welcome!",
-      "description": "Trained as a Full-Stack Developer 💻, with a greater affinity for the Back-End. In programming I have found my vocation and enjoyment. The constant learning, the self-improvement and that feeling that new challenges arise every moment to face are my inspiration. In addition to the knowledge and skills acquired in the career as a Full-Stack Developer at Henry, by adding me to your work group you would be adding someone who is passionate about logical thinking, problem solving, ambitious, constantly seeking to overcome any new challenge and to improve what has already been achieved.",
+      "description_header": "Hello!",
+      "description": "I'm an Argentinian developer starting his career in the tech world, thirsty for knowledge and challenges. As a programmer, I really enjoy the logical and functional side, although lately I also enjoy the front-end, so I like being involved in both sides of IT. I have studies in other fields such as Mechanical Technicature and Petroleum Technicature, but I found my true vocation in code, logic, constant learning and the possibility of being in tune with the endless advance of the world and technology. I consider myself ambitious and non-conformist, so I´m always in the constant search to improve both personally and professionally. I am always open to learn from others and offer my help and knowledge to those who need it. I´m also very sociable, I enjoy meeting new people and talking about any topic.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
+        "tech": "Technologies",
+        "soft": "Soft Skills",
         "experience": "Experience",
         "contact": "Contact"
       }
@@ -120,6 +122,7 @@
       "success": "Your message has been sent. Thank you!",
       "error": "An error has occurred. Please try again later.",
       "title": "My networks",
-      "description": "Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you. Simply fill the from and send me an email."
+      "description": "If you want to talk to me about any proposal, project, or just say hello, I would be delighted to hear you. Simply fill out the form and send me an email.",
+      "description2": "If you prefer to contact me by other means, or simply know more about me, contact me through my networks or WhatsApp. It will be a pleasure!"
     }
   }

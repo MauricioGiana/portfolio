@@ -111,6 +111,9 @@ class Contact extends React.Component {
                         <div className="more-info">
                           <p className="lead">
                             {this.contact.description}
+                            <br />
+                            <br />
+                            {this.contact.description2}
                           </p>
                         </div>
                         <div className="socials">
