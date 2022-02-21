@@ -33,37 +33,121 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-color: #2b2d42;
       h1 {
          color: white;
       }
    }
 
+/* NAVBAR */
+
+.navbar-b.navbar-reduce {
+   background-color: #000814;
+}
+
+.navbar-b.navbar-trans .nav-link,
+  .navbar-b.navbar-reduce .nav-link {
+	color: white;
+  }
+
+  .navbar-b.navbar-trans .nav-link:hover,
+  .navbar-b.navbar-reduce .nav-link:hover {
+	color: white;
+  }
+
+  .navbar-b.navbar-trans .nav-link:before {
+	background-color: white;
+  }
+
+  .navbar-b.navbar-trans .nav-link:hover {
+	color: #1282a2;
+  }
+
+  .navbar-b.navbar-reduce {
+	background-color: black;
+  }
+  
+  .navbar-b.navbar-reduce .nav-link {
+	color: white;
+  }
+  
+  .navbar-b.navbar-reduce .nav-link:before {
+	background-color: white;
+  }
+  
+  .navbar-b.navbar-reduce .nav-link:hover {
+	color: white;
+  }
+  
+  .navbar-b.navbar-reduce .show > .nav-link,
+  .navbar-b.navbar-reduce .active > .nav-link,
+  .navbar-b.navbar-reduce .nav-link.show,
+  .navbar-b.navbar-reduce .nav-link.active {
+	color: white;
+  }
+  
+  .navbar-b.navbar-reduce .navbar-brand {
+	color: white;
+  }
+  
+  .navbar-b.navbar-reduce .navbar-toggler span {
+	background-color: white;
+  }
+  
+  .navbar-b .navbar-brand {
+	color: black;
+  }
+
+  .navbar-b.navbar-trans .show > .nav-link,
+  .navbar-b.navbar-trans .active > .nav-link,
+  .navbar-b.navbar-trans .nav-link.show,
+  .navbar-b.navbar-trans .nav-link.active {
+	color: white;
+  }
+
    #about {
-      background-color: #7f7f7f;
+      background-color: #184e77;
       h1 span {
          color: white;
       }
       .polaroid span {
-         background:  #6d6d6d;
+         background:  #184e77;
       }
       .card {
-         background: #6d6d6d;
+         background: #003554;
          color: white;
       }
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: #2b2d42;
       .section-title {
          color: white !important;
       }
-      .foto div {
-         background: #6d6d6d;
+      .project-img-box {
+         background: #003554;
+      }
+      .project-date {
+         background: #003554;
+      }
+      .project-box {
+         background: #0a1128;
       }
       .project-title-settings {
          color: white;
       }
+   }
+
+   #skills {
+      background: #184e77;
+   }
+
+   .skills-title {
+      color: white;
+   }
+
+   .skills-tile {
+      background-color: transparentize(#0a1128, 0.1);
    }
 
    #resume {
@@ -97,11 +181,45 @@ body[data-theme="dark"] {
    }
 
    .modal-inside .modal-content {
-      background: #5b5b5b;
+      background: #2b2d42;
       color: white;
    }
 
    .close-icon {
       color: white;
+   }
+
+   #contact {
+      background: #2b2d42;
+      color: white;
+   }
+
+   .contact-container {
+      background: #0a1128;
+   }
+
+   .contact-title {
+      color: white;
+   }
+
+   @media (max-width: 600px) {
+      .contact-container {
+         background: none;
+      }
+   }
+
+   .ico-circle {
+      box-shadow: 0 0 0 3px white;
+      color: white;
+   }
+
+   .ico-circle:hover {
+   background-color: white;
+	color: #400970;
+	box-shadow: 0 0 0 3px #8f31e0;
+   }
+
+   .lang-container {
+      background-color: #0c1821;
    }
 }

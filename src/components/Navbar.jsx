@@ -1,13 +1,14 @@
 import $ from "jquery";
 import bootstrap from "bootstrap";
 import React from "react";
-
+import SwitchTheme from "./SwitchTheme";
+import Languages from "./Languages";
 
 class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
-      logo: null
+      logo: null,
     };
   }
 
@@ -63,7 +64,7 @@ class Navbar extends React.Component {
             {
               scrollTop: target.offset().top - navHeight + 5
             },
-            500,
+            750,
             "easeInExpo"
           );
           return false;
@@ -97,7 +98,7 @@ class Navbar extends React.Component {
             <span></span>
           </button>
           <div
-            className="navbar-collapse collapse justify-content-end"
+            className="navbar-collapse collapse"
             id="navbarDefault"
           >
             <ul className="navbar-nav">
@@ -138,6 +139,10 @@ class Navbar extends React.Component {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="switches-container">
+          <Languages applyPickedLanguage={this.props.applyPickedLanguage} />
+          <SwitchTheme />
         </div>
       </nav>
     );

@@ -1,11 +1,13 @@
 {
     "basic_info": {
-      "description_header": "Hola",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "¡Hola!",
+      "description": "Soy un desarrollador argentino iniciando su carrera en el mundo tech, sediento de conocimiento y desafíos. Como programador disfruto mucho de la parte lógica y funcional, aunque en este último tiempo también encontré un disfrute por el front-end, por lo que me gusta estar involucrado en ambos lados de la informática. Tengo estudios en otros campos como Tecnicatura Mecánica o en Petróleo, pero mi verdadera vocación la encontré en el código, la lógica, el constante aprendizaje y la posibilidad de estar en sintonía con el interminable avance del mundo y la tecnología. Me considero alguien ambicioso e inconformista, así que siempre estoy en la constante búsqueda por mejorar tanto a nivel personal como profesional. Siempre estoy abierto a aprender de los demás y a brindar mi ayuda y conocimientos a quien lo necesite. También soy muy sociable, disfruto conocer nuevas personas y charlar de cualquier tema.",
       "section_name": {
         "about": "Sobre mí",
         "projects": "Proyectos",
-        "skills": "Tecnologías",
+        "skills": "Habilidades",
+        "tech": "Tecnologías",
+        "soft": "Habilidades blandas",
         "experience": "Experiencia",
         "contact": "Contacto"
       }
@@ -118,6 +120,7 @@
       "success": "Tu mensaje fue enviado. ¡Gracias!",
       "error": "Ocurrió un error. Por favor intenta de nuevo.",
       "title": "Mis redes",
-      "description": "Si quieres hablarme de alguna propuesta, proyecto, o simplemente saludarme, estaría encantado de escucharte. Simplemente llena el formulario y enviame un email."
+      "description": "Si quieres hablarme de alguna propuesta, proyecto, o simplemente saludarme, estaría encantado de escucharte. Simplemente llena el formulario y enviame un email.",
+      "description2": "Si prefieres contactarme por otros medios, o simplemente conocer más sobre mí, contáctame a través de mis redes o por WhatsApp ¡Será un gusto!"
     }
   }
