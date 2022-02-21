@@ -10,6 +10,10 @@
         "soft": "Soft Skills",
         "experience": "Experience",
         "contact": "Contact"
+      },
+      "download_cv": {
+        "title": "Download CV",
+        "link": ""
       }
     },
     "navbar": {
@@ -67,7 +71,7 @@
             "name": "JavaScript"
           },
           {
-            "class": "devicon-firebase-original",
+            "class": "devicon-firebase",
             "name": "Firebase"
           }
         ]
