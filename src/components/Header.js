@@ -4,7 +4,7 @@ import Switch from "react-switch";
 
 class Header extends Component {
   titles = [];
-  downloadCv = {};
+  downloadCv = [];
 
   render() {
     if (this.props.sharedData) {
@@ -31,7 +31,6 @@ class Header extends Component {
                 <HeaderTitleTypeAnimation />
               </div>
             </div>
-            <button>{}</button>
           </div>
         </div>
       </header>
