@@ -1,132 +1,129 @@
 {
-    "basic_info": {
-      "description_header": "Hello!",
-      "description": "I'm an Argentinian developer starting his career in the tech world, thirsty for knowledge and challenges. As a programmer, I really enjoy the logical and functional side, although lately I also enjoy the front-end, so I like being involved in both sides of IT. I have studies in other fields such as Mechanical Technicature and Petroleum Technicature, but I found my true vocation in code, logic, constant learning and the possibility of being in tune with the endless advance of the world and technology. I consider myself ambitious and non-conformist, so I´m always in the constant search to improve both personally and professionally. I am always open to learn from others and offer my help and knowledge to those who need it. I´m also very sociable, I enjoy meeting new people and talking about any topic.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "tech": "Technologies",
-        "soft": "Soft Skills",
-        "experience": "Experience",
-        "contact": "Contact"
-      },
-      "download_cv": {
-        "title": "Download CV",
-        "link": ""
-      }
-    },
-    "navbar": {
-      "home": "Home",
-      "about": "About",
+  "basic_info": {
+    "description_header": "Hello!",
+    "description": "I'm an Argentinian developer starting his career in the tech world, thirsty for knowledge and challenges. As a programmer, I really enjoy the logical and functional side, although lately I also enjoy the front-end, so I like being involved in both sides of IT. I have studies in other fields such as Mechanical Technicature and Petroleum Technicature, but I found my true vocation in code, logic, constant learning and the possibility of being in tune with the endless advance of the world and technology. I consider myself ambitious and non-conformist, so I´m always in the constant search to improve both personally and professionally. I am always open to learn from others and offer my help and knowledge to those who need it. I´m also very sociable, I enjoy meeting new people and talking about any topic.",
+    "section_name": {
+      "about": "About me",
       "projects": "Projects",
       "skills": "Skills",
+      "tech": "Technologies",
+      "soft": "Soft Skills",
       "experience": "Experience",
       "contact": "Contact"
     },
-    "projects": [
-      {
-        "title": "Pokemon-App",
-        "startDate": "11/2021 - 12/2021",
-        "description": "Creation of a SPA (Single Page Application), with a \"Pokemon\" theme, which on the one hand brings information from an API, and on the other hand has a database through which the user can create, edit or delete his own pokemons. The app allows you to search, filter, sort and add different pokemons to favorites.",
-        "images": [
-          "images/portfolio/pokemon-app/p1.png",
-          "images/portfolio/pokemon-app/p2.png",
-          "images/portfolio/pokemon-app/p3.png",
-          "images/portfolio/pokemon-app/p4.png"
-        ],
-        "url": "https://pokemon-app-front.vercel.app/",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-express-original",
-            "name": "Express.js"
-          },
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "Postgresql"
-          }
-        ]
-      },
-      {
-        "title": "Work-App",
-        "startDate": "01/2022 - 02/2022",
-        "description": "Elaboration with a 6 members work team of a web page which objective is to connect people who offer services on a small scale (such as carpentry, construction, etc.), with potential clients, facilitating and accelerating the possibility both of being hired and to  find a worker who matches my needs. The user can post service requests, contact convenient workers, offer their services to other requesting users, receive job alerts, among others.",
-        "images": [
-          "images/portfolio/work-app/p1.png",
-          "images/portfolio/work-app/p2.png",
-          "images/portfolio/work-app/p3.png"
-        ],
-        "url": "https://work-app-front-lime.vercel.app/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-firebase",
-            "name": "Firebase"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ],
-    "contact": {
-      "formTitle": "Send a message",
-      "labels": [
-        "Your name",
-        "Please enter at least 4 chars",
-        "Your email",
-        "Subject",
-        "Message"
+    "download_cv": "Download CV"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "projects": [
+    {
+      "title": "Pokemon-App",
+      "startDate": "11/2021 - 12/2021",
+      "description": "Creation of a SPA (Single Page Application), with a \"Pokemon\" theme, which on the one hand brings information from an API, and on the other hand has a database through which the user can create, edit or delete his own pokemons. The app allows you to search, filter, sort and add different pokemons to favorites.",
+      "images": [
+        "images/portfolio/pokemon-app/p1.png",
+        "images/portfolio/pokemon-app/p2.png",
+        "images/portfolio/pokemon-app/p3.png",
+        "images/portfolio/pokemon-app/p4.png"
       ],
-      "submit": "Send Message",
-      "success": "Your message has been sent. Thank you!",
-      "error": "An error has occurred. Please try again later.",
-      "title": "My networks",
-      "description": "If you want to talk to me about any proposal, project, or just say hello, I would be delighted to hear you. Simply fill out the form and send me an email.",
-      "description2": "If you prefer to contact me by other means, or simply know more about me, contact me through my networks or WhatsApp. It will be a pleasure!"
+      "url": "https://pokemon-app-front.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql"
+        }
+      ]
+    },
+    {
+      "title": "Work-App",
+      "startDate": "01/2022 - 02/2022",
+      "description": "Elaboration with a 6 members work team of a web page which objective is to connect people who offer services on a small scale (such as carpentry, construction, etc.), with potential clients, facilitating and accelerating the possibility both of being hired and to  find a worker who matches my needs. The user can post service requests, contact convenient workers, offer their services to other requesting users, receive job alerts, among others.",
+      "images": [
+        "images/portfolio/work-app/p1.png",
+        "images/portfolio/work-app/p2.png",
+        "images/portfolio/work-app/p3.png"
+      ],
+      "url": "https://work-app-front-lime.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-firebase",
+          "name": "Firebase"
+        }
+      ]
     }
+  ],
+  "experience": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - present",
+      "mainTech": [
+        "Angular 8/9/10"
+      ],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        ".NET Core",
+        "SignalR",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Intern",
+      "years": "01.2018 - 09.2019",
+      "mainTech": [
+        "Angular 7/8"
+      ],
+      "technologies": [
+        "RxJS",
+        "Django",
+        "PHP",
+        "JavaScript",
+        "DHTMLX Gantt"
+      ]
+    }
+  ],
+  "contact": {
+    "formTitle": "Send a message",
+    "labels": [
+      "Your name",
+      "Please enter at least 4 chars",
+      "Your email",
+      "Subject",
+      "Message"
+    ],
+    "submit": "Send Message",
+    "success": "Your message has been sent. Thank you!",
+    "error": "An error has occurred. Please try again later.",
+    "title": "My networks",
+    "description": "If you want to talk to me about any proposal, project, or just say hello, I would be delighted to hear you. Simply fill out the form and send me an email.",
+    "description2": "If you prefer to contact me by other means, or simply know more about me, contact me through my networks or WhatsApp. It will be a pleasure!"
   }
+}

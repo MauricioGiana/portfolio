@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
+import DownloadCV from "./DownloadCV";
 
 class About extends Component {
   render() {
@@ -13,6 +14,7 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var downloadTitle = this.props.resumeBasicInfo.download_cv;
     }
 
     return (
@@ -45,6 +47,7 @@ class About extends Component {
                     {about}
                   </div>
                 </div>
+                <DownloadCV title={downloadTitle} />
               </div>
             </div>
           </div>
