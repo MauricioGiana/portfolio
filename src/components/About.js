@@ -47,7 +47,9 @@ class About extends Component {
                     {about}
                   </div>
                 </div>
-                <DownloadCV title={downloadTitle} />
+                <div className="download-cv-box">
+                  <DownloadCV title={downloadTitle} />
+                </div>
               </div>
             </div>
           </div>

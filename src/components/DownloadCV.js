@@ -27,6 +27,12 @@ class DownloadCV extends Component {
                             rel="noopener noreferrer"
                             onClick={this.toggleShow}
                         >
+                            <span
+                                className="iconify cv-lang-icon"
+                                data-icon="twemoji-flag-for-flag-united-kingdom"
+                                data-inline="false"
+                                id={window.$primaryLanguageIconId}
+                            ></span>
                             English
                         </a>
                         <a
@@ -35,6 +41,12 @@ class DownloadCV extends Component {
                             rel="noopener noreferrer"
                             onClick={this.toggleShow}
                         >
+                            <span
+                                className="iconify cv-lang-icon"
+                                data-icon="twemoji-flag-for-flag-argentina"
+                                data-inline="false"
+                                id={window.$primaryLanguageIconId}
+                            ></span>
                             Español
                         </a>
                     </div>

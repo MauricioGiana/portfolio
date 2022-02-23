@@ -124,27 +124,152 @@ header h1 {
 }
 
 #download-cv {
-	margin: 10px;
 	width: 15rem;
+	height: 4.5rem;
+	position: relative;
 }
 
 .download-btn {
-	background-color: #a4b4fd;
 	border: none;
-	color: #3d0e61;
+	color: white;
 	padding: 10px;
 	font-size: 16px;
 	font-weight: 600;
-	border-radius: 5px;
 	cursor: pointer;
 	margin: 0 auto;
+	position: relative;
+	border: white solid 2px;
+	background-color: #2d4586;
+    transition: background-position 0.4s;
+	border-radius: 20px 0 20px 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
+
+.download-btn::after {
+	content: '►';
+	font-family: 'Font Awesome 5 Free';
+	font-size: 2.5rem;
+	position: absolute;
+	right: 0.7rem;
+	top: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.download-btn::before {
+	content: '';
+ 	background: #0d243b;
+  	position: absolute;
+  	width: 0%;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  	transition: 0.3s linear;
+  	z-index: -1;
+	border-radius: 20px 0 20px 0;
+}
+
+.download-btn:hover::before {
+	  width: 100%;
+}
+
+.download-btn:hover {
+	background-position: 0 0;
+}
+
+
 
 #cvs-box {
 	position: absolute;
-	margin: 10px;
+	left: 13rem;
+	top: 0;
 	display: flex;
 	flex-direction: column;
+	font-size: 1.5rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+	border: #ffffff solid 2px;
+	width: 15rem;
+	height: 8rem;
+	z-index: 0;
+}
+
+@media (max-width: 890px) {
+	#cvs-box {
+		top: -3.5rem;
+	}
+	.download-btn {
+		border-radius: 0 20px 0 20px;
+	}
+	.download-btn::before {
+		border-radius: 0 20px 0 20px;
+	}
+}
+
+
+#cvs-box a {
+	text-decoration: none !important;
+	color: black;
+	background: linear-gradient(to bottom, rgb(152, 195, 219), rgb(99, 113, 179) 40%);
+	padding-left: 3rem;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+}
+
+#cvs-box a:hover {
+	background: linear-gradient(to bottom, rgb(95, 141, 167), rgb(56, 66, 117) 40%);
+	transition: background-position 0.4s;
+}
+
+
+.cv-lang-icon {
+	height: 3rem;
+	width: 3rem;
+	margin-right: 1rem;
+}
+
+.download-cv-box {
+	margin-top: 4rem;
+}
+
+@media (max-width: 500px) {
+	#cvs-box {
+		top: -7.8rem;
+		left: 0;
+		width: 100%;
+	}
+	#cvs-box a {
+		padding-left: 0;
+		height: 5rem;
+		display: flex;
+		justify-content: center;
+	}
+	.download-btn {
+		border-radius: 0 0 20px 20px;
+		font-size: 2.2rem;
+	}
+	.download-btn::before {
+		border-radius: 0 0 20px 20px;
+	}
+	.download-cv-box {
+		margin-top: 3rem;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	#download-cv {
+		width: 20rem;
+		height: 5rem;
+		position: relative;
+	}
+	.download-btn::after {
+		content: "▲";
+	}
 }
 
 .project-box {
