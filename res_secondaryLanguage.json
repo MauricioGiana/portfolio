@@ -11,10 +11,7 @@
         "experience": "Experiencia",
         "contact": "Contacto"
       },
-      "download_cv": {
-        "title": "Descargar CV",
-        "link": ""
-      }
+      "download_cv": "Descargar CV"
     },
     "navbar": {
       "home": "Inicio",
