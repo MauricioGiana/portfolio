@@ -6,17 +6,17 @@
         {
           "name": "github",
           "url": "https://github.com/MauricioGiana",
-          "class": "fab fa-github"
+          "class": "fab fa-github icon"
         },
         {
           "name": "linkedin",
           "url": "https://linkedin.com/in/mauricio-giana-dev",
-          "class": "fab fa-linkedin"
+          "class": "fab fa-linkedin icon"
         },
         {
           "name": "whatsapp",
           "url": "https://wa.me/+5492634256370",
-          "class": "fab fa-whatsapp"
+          "class": "fab fa-whatsapp icon"
         }
       ],
       "image": "myProfile.png"

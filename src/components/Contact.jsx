@@ -1,4 +1,5 @@
 import React from "react";
+import Socials from "./Socials";
 
 
 class Contact extends React.Component {
@@ -116,24 +117,8 @@ class Contact extends React.Component {
                           {this.contact.description2}
                         </p>
                       </div>
-                      <div className="socials">
-                        <ul>
-                          {
-                            this.social.map(item => (
-                              <li key={item.name}>
-                                <a
-                                  href={item.url}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <span className="ico-circle">
-                                    <i className={item.class} style={{ height: "100%", width: "100%" }}></i>
-                                  </span>
-                                </a>
-                              </li>
-                            ))
-                          }
-                        </ul>
+                      <div className="socials-box">
+                        <Socials data={this.social} />
                       </div>
                     </div>
                   </div>

@@ -208,16 +208,6 @@ body[data-theme="dark"] {
       }
    }
 
-   .ico-circle {
-      box-shadow: 0 0 0 3px white;
-      color: white;
-   }
-
-   .ico-circle:hover {
-   background-color: white;
-	color: #400970;
-	box-shadow: 0 0 0 3px #8f31e0;
-   }
 
    .lang-container {
       background-color: #0c1821;
@@ -235,5 +225,13 @@ body[data-theme="dark"] {
    }
    #cvs-box a:hover {
       background: linear-gradient(to bottom, rgb(104, 143, 165), rgb(6, 7, 10) 40%);
+   }
+
+   .socials-container ul li a {
+      background-color: #02090e;
+      border: 3px solid #29607c;
+   }
+   .socials-container ul li a .icon {
+      color: #bbc7e0;
    }
 }
