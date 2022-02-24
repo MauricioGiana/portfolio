@@ -222,4 +222,18 @@ body[data-theme="dark"] {
    .lang-container {
       background-color: #0c1821;
    }
+
+   .download-btn {
+      background-color: #13293d;
+   }
+   .download-btn::before {
+      background-color: #051923;
+   }
+   #cvs-box a {
+      color: white;
+      background: linear-gradient(to bottom, rgb(49, 94, 119), rgb(25, 33, 70) 40%);
+   }
+   #cvs-box a:hover {
+      background: linear-gradient(to bottom, rgb(104, 143, 165), rgb(6, 7, 10) 40%);
+   }
 }

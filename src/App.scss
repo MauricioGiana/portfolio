@@ -219,11 +219,11 @@ header h1 {
 	height: 4rem;
 	display: flex;
 	align-items: center;
+	transition: background-color .5s ;
 }
 
 #cvs-box a:hover {
 	background: linear-gradient(to bottom, rgb(95, 141, 167), rgb(56, 66, 117) 40%);
-	transition: background-position 0.4s;
 }
 
 
@@ -239,15 +239,21 @@ header h1 {
 
 @media (max-width: 500px) {
 	#cvs-box {
-		top: -7.8rem;
+		top: -15.8rem;
 		left: 0;
 		width: 100%;
+		height: 16rem;
+		font-size: 2.5rem;
 	}
 	#cvs-box a {
 		padding-left: 0;
-		height: 5rem;
+		height: 8rem;
 		display: flex;
 		justify-content: center;
+	}
+	.cv-lang-icon {
+		height: 4rem;
+		width: 4rem;
 	}
 	.download-btn {
 		border-radius: 0 0 20px 20px;
