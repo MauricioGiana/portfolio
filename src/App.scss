@@ -182,12 +182,13 @@ header h1 {
 	background-position: 0 0;
 }
 
-
+.cvs-window {
+	position: absolute;
+	top: 0;
+	left: 13rem;
+}
 
 #cvs-box {
-	position: absolute;
-	left: 13rem;
-	top: 0;
 	display: flex;
 	flex-direction: column;
 	font-size: 1.5rem;
@@ -198,8 +199,8 @@ header h1 {
 	z-index: 0;
 }
 
-@media (max-width: 890px) {
-	#cvs-box {
+@media (max-width: 1060px) {
+	.cvs-window {
 		top: -3.5rem;
 	}
 	.download-btn {
@@ -237,10 +238,17 @@ header h1 {
 	margin-top: 4rem;
 }
 
+
+
 @media (max-width: 500px) {
-	#cvs-box {
+	.cvs-window {
+		width: 100%;
+		position: absolute;
 		top: -15.8rem;
 		left: 0;
+		overflow: hidden;
+	}
+	#cvs-box {
 		width: 100%;
 		height: 16rem;
 		font-size: 2.5rem;
@@ -275,6 +283,30 @@ header h1 {
 	}
 	.download-btn::after {
 		content: "▲";
+	}
+	.cvs-box-slideup {
+		animation: slideup 0.5s ease-in;
+	}
+	
+	.cvs-box-slidedown {
+		animation: slidedown 0.5s ease-in;
+	}
+	
+	@keyframes slideup {
+		from {
+			transform: translateY(100%);
+		}
+		to {
+			transform: translateY(0%);
+		}
+	}
+	@keyframes slidedown {
+		from {
+			transform: translateY(0%);
+		}
+		to {
+			transform: translateY(100%);
+		}
 	}
 }
 
