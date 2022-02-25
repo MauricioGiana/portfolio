@@ -17,7 +17,7 @@ class DownloadCV extends Component {
                 <div className="download-btn slide-cvs" onClick={() => toggleShow()}>{this.props.title}</div>
                 <div id="cvs-box">
                     <a
-                        href="https://drive.google.com/file/d/1xC__BR-q2ExZLVHHUwicO2uWKkFjGxyN/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1riUkUMEeFsTf_NHxa-773qIfEZS1CWiE/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => toggleShow()}
@@ -32,7 +32,7 @@ class DownloadCV extends Component {
                         English
                     </a>
                     <a
-                        href="https://drive.google.com/file/d/1m1M8fJFRYGKOehk7bV3zT5_-0kYrB8EE/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1yKgC3ibU-k9aKjFxbAwnxjsCsWpHETMb/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => toggleShow()}
