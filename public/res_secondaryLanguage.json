@@ -30,7 +30,13 @@
           "images/portfolio/pokemon-app/p1.png",
           "images/portfolio/pokemon-app/p2.png",
           "images/portfolio/pokemon-app/p3.png",
-          "images/portfolio/pokemon-app/p4.png"
+          "images/portfolio/pokemon-app/p4.png",
+          "images/portfolio/pokemon-app/p5.png",
+          "images/portfolio/pokemon-app/p6.png",
+          "images/portfolio/pokemon-app/p7.png",
+          "images/portfolio/pokemon-app/p8.png",
+          "images/portfolio/pokemon-app/p9.png",
+          "images/portfolio/pokemon-app/p10.png"
         ],
         "url": "https://pokemon-app-front.vercel.app/",
         "technologies": [
