@@ -39,16 +39,37 @@
       "url": "https://pokemon-app-front.vercel.app/",
       "technologies": [
         {
-          "class": "devicon-react-plain",
-          "name": "React"
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "90"
         },
         {
           "class": "devicon-express-original",
           "name": "Express.js"
         },
         {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-original"
+        },
+        {
           "class": "devicon-postgresql-plain",
           "name": "Postgresql"
+        },
+        {
+          "name": "Sequelize",
+          "class": "devicon-sequelize-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "Heroku",
+          "class": "devicon-heroku-original"
         }
       ]
     },
@@ -64,16 +85,44 @@
       "url": "https://work-app-front-lime.vercel.app/",
       "technologies": [
         {
-          "class": "devicon-react-original",
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-react-plain",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "name": "Redux",
+          "class": "devicon-redux-original"
         },
         {
-          "class": "devicon-firebase",
-          "name": "Firebase"
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql"
+        },
+        {
+          "name": "Sequelize",
+          "class": "devicon-sequelize-plain"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain"
+        },
+        {
+          "name": "Socket.io",
+          "class": "devicon-socketio-original"
+        },
+        {
+          "name": "Material UI",
+          "class": "devicon-materialui-plain"
+        },
+        {
+          "name": "Heroku",
+          "class": "devicon-heroku-original"
         }
       ]
     }
