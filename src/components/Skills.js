@@ -6,8 +6,8 @@ class Skills extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.skills;
       var skills = this.props.sharedSkills.icons.map(function (skills, i) {
         return (
-          <a href={skills.link} target="_blank" rel="noopener noreferrer" className="skill-link">
-            <li className="list-inline-item mx-3" key={i}>
+          <li className="list-inline-item mx-3" key={i}>
+            <a href={skills.link} target="_blank" rel="noopener noreferrer" className="a-link">
               <span>
                 <div className="text-center skills-tile">
                   <i className={skills.class} style={{ fontSize: "220%" }}>
@@ -20,8 +20,8 @@ class Skills extends Component {
                   </i>
                 </div>
               </span>
-            </li>
-          </a>
+            </a>
+          </li>
         );
       });
     }

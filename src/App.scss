@@ -15,15 +15,6 @@ html {
 	justify-content: center;
 }
 
-.skill-link {
-	text-decoration: none;
-	color: inherit;
-}
-
-.skill-link:hover {
-	color: inherit;
-}
-
 .title-container {
 	height: 50px;
 }
@@ -71,14 +62,6 @@ header {
 	border-radius: 0 0 5px 5px;
 	background-color: #beccff;
 	color: rgb(59, 46, 93);
-}
-
-.skills-tile {
-	background-color: transparentize(#400970, 0.1);
-	padding: 10px 10px 5px 10px;
-	width: 100px;
-	margin: 5px 0 5px 0;
-	border-radius: 8px;
 }
 
 .language {
@@ -629,6 +612,40 @@ header h1 {
 	color: white;
 	text-align: center;
 	position: relative;
+}
+
+.skills-tile {
+	background-color: transparentize(#400970, 0.1);
+	padding: 10px 10px 5px 10px;
+	width: 100px;
+	margin: 5px 0 5px 0;
+	border-radius: 8px;
+	position: relative;
+	border: 0 solid;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+	outline: 1px solid;
+	outline-color: rgba(27, 9, 61, 0.5);
+	outline-offset: 0px;
+	text-shadow: none;
+	transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.skills-tile:hover {
+	border: 1px solid;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+	outline-color: rgba(255, 255, 255, 0);
+	outline-offset: 15px;
+	text-shadow: 1px 1px 2px #427388; 
+}
+
+.a-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.a-link:hover {
+	text-decoration: none;
+	color: inherit;
 }
 
 footer {
