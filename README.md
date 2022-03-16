@@ -21,6 +21,8 @@
 
 Go to my portfolio <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
 
+<br/>
+<br/>
 
 Thnaks for Dorota1997 since this portfolio was made based on a template created by her.
 Link to the original template <a href="https://github.com/Dorota1997/react-frontend-dev-portfolio.git"><strong>here</strong></a>
