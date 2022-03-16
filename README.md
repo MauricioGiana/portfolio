@@ -1,5 +1,5 @@
 <img width="80%" align="center" src="https://github.com/MauricioGiana/portfolio/blob/6414004a42a226db37351cc6d0a38d66835bd547/public/images/desktop-1.png" alt="portfolio template mockup" /> <br/>
-<img height="350px" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
+<img height="350px" align="right" src="https://github.com/MauricioGiana/portfolio/blob/ab31af14dab37f77b464a93d5ade30ccaa4b270d/public/images/mobile-1.png" alt="portfolio mobile demo gif"/>
 
 <img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
 <h2>Portfolio</h2>
