@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello!",
-    "description": "I'm an Argentinian developer starting his career in the tech world, thirsty for knowledge and challenges. As a programmer, I really enjoy the logical and functional side, although lately I also enjoy the front-end, so I like being involved in both sides of IT. I have studies in other fields such as Mechanical Technicature and Petroleum Technicature, but I found my true vocation in code, logic, constant learning and the possibility of being in tune with the endless advance of the world and technology. I consider myself ambitious and non-conformist, so I´m always in the constant search to improve both personally and professionally. I am always open to learn from others and offer my help and knowledge to those who need it. I´m also very sociable, I enjoy meeting new people and talking about any topic.",
+    "description": "Enthusiastic and skilled backend developer with experience in the healthcare technology industry. I have a strong ability to deliver clear and scalable code; and to work proactively in collaborative environments. My work experience allowed me to develop my technical and professional skills under the guidance and support of an excellent work team. Here I was able to gain valuable experience implementing good programming practices, design patterns, architecture, TDD, among others. While I have basic knowledge and experience in front-end development, my passion and primary focus lies on the backend. Among my strengths I could highlight proactivity in searching for solutions, critical vision to identify opportunities for improvement and the ability to communicate complex ideas clearly and effectively. I am a continuous learner, always willing to expand my knowledge and skills to adapt to the latest technologies and industry trends.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -132,9 +132,7 @@
       "company": "DefOpenSource",
       "title": "Front-End Developer",
       "years": "10.2019 - present",
-      "mainTech": [
-        "Angular 8/9/10"
-      ],
+      "mainTech": ["Angular 8/9/10"],
       "technologies": [
         "REST API",
         "RxJS",
@@ -151,16 +149,8 @@
       "company": "Serros Solutions",
       "title": "Intern",
       "years": "01.2018 - 09.2019",
-      "mainTech": [
-        "Angular 7/8"
-      ],
-      "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
-      ]
+      "mainTech": ["Angular 7/8"],
+      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
     }
   ],
   "contact": {
