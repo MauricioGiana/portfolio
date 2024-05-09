@@ -36,6 +36,12 @@
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
       {
+        "name": "Typescript",
+        "class": "devicon-typescript-plain",
+        "level": "70",
+        "link": "https://www.typescriptlang.org"
+      },
+      {
         "name": "Node.js",
         "class": "devicon-nodejs-plain",
         "level": "90",
