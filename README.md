@@ -9,24 +9,23 @@
 </pre>
 
 <strong>:crown: Features</strong>
-  - Language selection (English / Spanish).
-  - Dark mode.
-  - Fully responsive.
-  - Links to my CV in English and Spanish version.
 
+- Language selection (English / Spanish).
+- Dark mode.
+- Fully responsive.
+- Links to my CV in English and Spanish version.
 
 <br/>
 
 <h3>:eye_speech_bubble: Link</h3>
 
-Go to my portfolio <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
+Go to my portfolio <a href="https://mauriciogiana.github.io/portfolio/"><strong>here</strong></a>
 
 <br/>
 <br/>
 <br/>
 
-Thnaks to Dorota1997 since this portfolio was made based on a template created by her.
+Thanks to Dorota1997 since this portfolio was made based on a template created by her.
 <br/>
 <br/>
 Link to the original template <a href="https://github.com/Dorota1997/react-frontend-dev-portfolio.git"><strong>here</strong></a>
-
