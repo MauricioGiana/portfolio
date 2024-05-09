@@ -66,12 +66,6 @@
         "link": "https://sequelize.org/"
       },
       {
-        "name": "Mongoose",
-        "class": "devicon-mongoose-plain",
-        "level": "70",
-        "link": "https://mongoosejs.com"
-      },
-      {
         "name": "PostgreSQL",
         "class": "devicon-postgresql-plain",
         "level": "60",
