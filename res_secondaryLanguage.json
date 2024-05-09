@@ -1,131 +1,127 @@
 {
-    "basic_info": {
-      "description_header": "¡Hola!",
-      "description": "Soy un desarrollador argentino iniciando su carrera en el mundo tech, sediento de conocimiento y desafíos. Como programador disfruto mucho de la parte lógica y funcional, aunque en este último tiempo también encontré un disfrute por el front-end, por lo que me gusta estar involucrado en ambos lados de la informática. Tengo estudios en otros campos como Tecnicatura Mecánica y en Petróleo, pero mi verdadera vocación la encontré en el código, la lógica, el constante aprendizaje y la posibilidad de estar en sintonía con el interminable avance del mundo y la tecnología. Me considero alguien ambicioso e inconformista, así que siempre estoy en la constante búsqueda por mejorar tanto a nivel personal como profesional. Siempre estoy abierto a aprender de los demás y a brindar mi ayuda y conocimientos a quien lo necesite. También soy muy sociable, disfruto conocer nuevas personas y charlar de cualquier tema.",
-      "section_name": {
-        "about": "Sobre mí",
-        "projects": "Proyectos",
-        "skills": "Habilidades",
-        "tech": "Tecnologías",
-        "soft": "Habilidades blandas",
-        "experience": "Experiencia",
-        "contact": "Contacto"
-      },
-      "download_cv": "Descargar CV"
-    },
-    "navbar": {
-      "home": "Inicio",
-      "about": "Sobre mi",
+  "basic_info": {
+    "description_header": "¡Hola!",
+    "description": "Desarrollador backend entusiasta y capacitado con experiencia en la industria de la tecnología de la salud. Poseo una sólida capacidad para entregar código claro y escalable; y para trabajar proactivamente en entornos colaborativos. Mi experiencia laboral me permitió desarrollar mis habilidades técnicas y profesionales bajo la guía y el apoyo de un excelente equipo de trabajo. Aquí pude adquirir valiosa experiencia implementando buenas prácticas de la programación, patrones de diseño, de arquitectura, TDD, entre otros. Si bien poseo conocimientos y experiencia básica en desarrollo front-end, mi pasión y enfoque principal residen en el backend. Entre mis fortalezas podría destacar la proactividad en la búsqueda de soluciones, la visión crítica para identificar oportunidades de mejora y la capacidad de comunicar ideas complejas de manera clara y efectiva. Soy un aprendiz continuo, siempre dispuesto a expandir mis conocimientos y habilidades para adaptarme a las últimas tecnologías y tendencias de la industria.",
+    "section_name": {
+      "about": "Sobre mí",
       "projects": "Proyectos",
-      "skills": "Tecnologías",
+      "skills": "Habilidades",
+      "tech": "Tecnologías",
+      "soft": "Habilidades blandas",
       "experience": "Experiencia",
       "contact": "Contacto"
     },
-    "projects": [
-      {
-        "title": "Pokemon-App",
-        "startDate": "11/2021 - 12/2021",
-        "description": "Creación de una SPA (Single Page Application), con temática \"Pokemon\", la cual por un lado, trae información de una API, y por otro lado cuenta con una base de datos a través de la cual el usuario puede crear, editar o eliminar sus propios pokemons. La app permite buscar, filtrar, ordenar y agregar a favoritos los distintos pokemons.",
-        "images": [
-          "images/portfolio/pokemon-app/p1.png",
-          "images/portfolio/pokemon-app/p2.png",
-          "images/portfolio/pokemon-app/p3.png",
-          "images/portfolio/pokemon-app/p4.png",
-          "images/portfolio/pokemon-app/p5.png",
-          "images/portfolio/pokemon-app/p6.png",
-          "images/portfolio/pokemon-app/p7.png",
-          "images/portfolio/pokemon-app/p8.png"
-        ],
-        "url": "https://pokemon-app-front.vercel.app/",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-express-original",
-            "name": "Express.js"
-          },
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "Postgresql"
-          }
-        ]
-      },
-      {
-        "title": "Work-App",
-        "startDate": "01/2022 - 02/2022",
-        "description": "Elaboración con un equipo de trabajo de 6 integrantes de una página web cuyo objetivo es conectar personas que ofrecen servicios a pequeña escala (tales como carpintería, construcción, etc), con los potenciales clientes de la misma, facilitando y acelerando la posibilidad tanto de ser contratado como de encontrar un trabajador que coincida con mis necesidades. El usuario puede postear solicitudes de servicio, contactar con trabajadores de su interés, ofrecer sus servicios a otros usuarios solicitantes, recibir alertas de empleo, entre otros.",
-        "images": [
-          "images/portfolio/work-app/p1.png",
-          "images/portfolio/work-app/p2.png",
-          "images/portfolio/work-app/p3.png"
-        ],
-        "url": "https://work-app-front-lime.vercel.app/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-firebase-original",
-            "name": "Firebase"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ],
-    "contact": {
-      "formTitle": "Envía un mensaje",
-      "labels": [
-        "Tu nombre",
-        "Por favor introduzca al menos 4 caracteres",
-        "Tu email",
-        "Asunto",
-        "Mensaje"
+    "download_cv": "Descargar CV"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mi",
+    "projects": "Proyectos",
+    "skills": "Tecnologías",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "projects": [
+    {
+      "title": "Pokemon-App",
+      "startDate": "11/2021 - 12/2021",
+      "description": "Creación de una SPA (Single Page Application), con temática \"Pokemon\", la cual por un lado, trae información de una API, y por otro lado cuenta con una base de datos a través de la cual el usuario puede crear, editar o eliminar sus propios pokemons. La app permite buscar, filtrar, ordenar y agregar a favoritos los distintos pokemons.",
+      "images": [
+        "images/portfolio/pokemon-app/p1.png",
+        "images/portfolio/pokemon-app/p2.png",
+        "images/portfolio/pokemon-app/p3.png",
+        "images/portfolio/pokemon-app/p4.png",
+        "images/portfolio/pokemon-app/p5.png",
+        "images/portfolio/pokemon-app/p6.png",
+        "images/portfolio/pokemon-app/p7.png",
+        "images/portfolio/pokemon-app/p8.png"
       ],
-      "submit": "Enviar Mensaje",
-      "success": "Tu mensaje fue enviado. ¡Gracias!",
-      "error": "Ocurrió un error. Por favor intenta de nuevo.",
-      "title": "Mis redes",
-      "description": "Si quieres hablarme de alguna propuesta, proyecto, o simplemente saludarme, estaría encantado de escucharte. Simplemente llena el formulario y enviame un email.",
-      "description2": "Si prefieres contactarme por otros medios, o simplemente conocer más sobre mí, contáctame a través de mis redes o por WhatsApp ¡Será un gusto!"
+      "url": "https://pokemon-app-front.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql"
+        }
+      ]
+    },
+    {
+      "title": "Work-App",
+      "startDate": "01/2022 - 02/2022",
+      "description": "Elaboración con un equipo de trabajo de 6 integrantes de una página web cuyo objetivo es conectar personas que ofrecen servicios a pequeña escala (tales como carpintería, construcción, etc), con los potenciales clientes de la misma, facilitando y acelerando la posibilidad tanto de ser contratado como de encontrar un trabajador que coincida con mis necesidades. El usuario puede postear solicitudes de servicio, contactar con trabajadores de su interés, ofrecer sus servicios a otros usuarios solicitantes, recibir alertas de empleo, entre otros.",
+      "images": [
+        "images/portfolio/work-app/p1.png",
+        "images/portfolio/work-app/p2.png",
+        "images/portfolio/work-app/p3.png"
+      ],
+      "url": "https://work-app-front-lime.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-firebase-original",
+          "name": "Firebase"
+        }
+      ]
     }
+  ],
+  "experience": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - obecnie",
+      "mainTech": ["Angular 8/9/10"],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Stażystka",
+      "years": "01.2018 - 09.2019",
+      "mainTech": ["Angular 7/8"],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "Swagger",
+        "JavaScript",
+        "DHTMLX Gantt"
+      ]
+    }
+  ],
+  "contact": {
+    "formTitle": "Envía un mensaje",
+    "labels": [
+      "Tu nombre",
+      "Por favor introduzca al menos 4 caracteres",
+      "Tu email",
+      "Asunto",
+      "Mensaje"
+    ],
+    "submit": "Enviar Mensaje",
+    "success": "Tu mensaje fue enviado. ¡Gracias!",
+    "error": "Ocurrió un error. Por favor intenta de nuevo.",
+    "title": "Mis redes",
+    "description": "Si quieres hablarme de alguna propuesta, proyecto, o simplemente saludarme, estaría encantado de escucharte. Simplemente llena el formulario y enviame un email.",
+    "description2": "Si prefieres contactarme por otros medios, o simplemente conocer más sobre mí, contáctame a través de mis redes o por WhatsApp ¡Será un gusto!"
   }
+}
