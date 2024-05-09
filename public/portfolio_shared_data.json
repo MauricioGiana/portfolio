@@ -24,12 +24,6 @@
   "skills": {
     "icons": [
       {
-        "name": "HTML 5",
-        "class": "devicon-html5-plain",
-        "level": "95",
-        "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-      },
-      {
         "name": "JavaScript",
         "class": "devicon-javascript-plain",
         "level": "70",
@@ -54,6 +48,42 @@
         "link": "https://expressjs.com/"
       },
       {
+        "name": "MySQL",
+        "class": "devicon-mysql-plain",
+        "level": "70",
+        "link": "https://www.mysql.com"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "70",
+        "link": "https://www.mongodb.com"
+      },
+      {
+        "name": "Sequelize",
+        "class": "devicon-sequelize-plain",
+        "level": "65",
+        "link": "https://sequelize.org/"
+      },
+      {
+        "name": "Mongoose",
+        "class": "devicon-mongoose-plain",
+        "level": "70",
+        "link": "https://mongoosejs.com"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain",
+        "level": "60",
+        "link": "https://www.postgresql.org/"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95",
+        "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+      },
+      {
         "name": "React",
         "class": "devicon-react-plain",
         "level": "80",
@@ -70,18 +100,6 @@
         "class": "devicon-css3-plain",
         "level": "95",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      },
-      {
-        "name": "PostgreSQL",
-        "class": "devicon-postgresql-plain",
-        "level": "60",
-        "link": "https://www.postgresql.org/"
-      },
-      {
-        "name": "Sequelize",
-        "class": "devicon-sequelize-plain",
-        "level": "65",
-        "link": "https://sequelize.org/"
       },
       {
         "name": "Github",
