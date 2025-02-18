@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
 import DownloadCV from "./DownloadCV";
 
 class About extends Component {
@@ -44,7 +40,9 @@ class About extends Component {
                     <span className="wave">{hello}</span>
                     <br />
                     <br />
-                    {about}
+                    {about?.split("\n").map((item, i) => (
+                      <p key={i}>{item}</p>
+                    ))}
                   </div>
                 </div>
                 <div className="download-cv-box">
