@@ -80,31 +80,30 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - obecnie",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "REVAI (Mendoza, Argentina)",
+      "title": "Desarrollador Backend",
+      "years": "03.2022 - pŕesente",
+      "mainTech": ["Nodejs", "Javascript/Typescript"],
       "technologies": [
         "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        "Angular Material"
-      ]
-    },
-    {
-      "company": "Serros Solutions",
-      "title": "Stażystka",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": [
-        "REST API",
-        "RxJS",
+        "Typescript",
+        "Express.js",
+        "Adonisjs",
+        "MySQL",
+        "MongoDB",
+        "AWS Lambda",
+        "RabbitMQ",
+        "OpenTelemetry",
+        "Redis",
+        "Elasticsearch",
+        "Docker",
+        "Web Sockets",
         "Swagger",
-        "JavaScript",
-        "DHTMLX Gantt"
+        "Golang",
+        "Python",
+        "Confluence",
+        "Jira",
+        "GitLab"
       ]
     }
   ],

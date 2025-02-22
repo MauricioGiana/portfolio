@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello!",
-    "description": "I am a passionate and skilled backend developer with experience in healthtech industry. I specialize in writing clean, scalable, and maintainable code while thriving in collaborative environments.\n My experience has allowed me to refine my technical expertise and professional skills under the guidance of an excellent team, where I have embraced best programming practices, design patterns and software architecture.\n While I have some experience in front-end development, my true passion lies in backend engineering. I excel in problem-solving, proactively seeking solutions, and identifying opportunities for improvement with a critical mindset. Additionally, I have a strong ability to communicate complex ideas clearly and effectively.\n As a continuous learner, I am always eager to expand my knowledge and adapt to emerging technologies and industry trends.",
+    "description": "I am a passionate backend developer with experience in healthtech industry. I specialize in writing clean, scalable, and maintainable code while thriving in collaborative environments.\n My experience has allowed me to refine my technical expertise and professional skills under the guidance of an excellent team, where I have embraced best programming practices, design patterns and software architecture.\n While I have some experience in front-end development, my true passion lies in backend engineering. I excel in problem-solving, proactively seeking solutions, and identifying opportunities for improvement with a critical mindset. Additionally, I have a strong ability to communicate complex ideas clearly and effectively.\n As a continuous learner, I am always eager to expand my knowledge and adapt to emerging technologies and industry trends.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -129,28 +129,31 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "REVAI (Mendoza, Argentina)",
+      "title": "Backend Developer",
+      "years": "03/2022 - present",
+      "mainTech": ["Nodejs", "Javascript/Typescript"],
       "technologies": [
         "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Typescript",
+        "Express.js",
+        "Adonisjs",
+        "MySQL",
+        "MongoDB",
+        "AWS Lambda",
+        "RabbitMQ",
+        "OpenTelemetry",
+        "Redis",
+        "Elasticsearch",
+        "Docker",
+        "Web Sockets",
+        "Swagger",
+        "Golang",
+        "Python",
+        "Confluence",
+        "Jira",
+        "GitLab"
       ]
-    },
-    {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
     }
   ],
   "contact": {

@@ -12,11 +12,9 @@ import Contact from "./components/Contact";
 import Languages from "./components/Languages";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
-      foo: "bar",
       resumeData: {},
       sharedData: {},
     };
@@ -85,7 +83,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar 
+        <Navbar
           resumeData={this.state.resumeData.navbar}
           applyPickedLanguage={this.applyPickedLanguage.bind(this)}
         />
@@ -94,18 +92,18 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        {/* <Experience
+        <Experience
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
-        /> */}
+        />
+        <Projects
+          resumeProjects={this.state.resumeData.projects}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
         <Contact
           resumeData={this.state.resumeData}
           sharedBasicInfo={this.state.sharedData.basic_info}

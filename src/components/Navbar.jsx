@@ -24,7 +24,7 @@ class Navbar extends React.Component {
 
     $("body").scrollspy({
       target: "#mainNav",
-      offset: navHeight
+      offset: navHeight,
     });
 
     $(".js-scroll").on("click", function () {
@@ -52,7 +52,7 @@ class Navbar extends React.Component {
     $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
       if (
         window.location.pathname.replace(/^\//, "") ===
-        this.pathname.replace(/^\//, "") &&
+          this.pathname.replace(/^\//, "") &&
         window.location.hostname === this.hostname
       ) {
         var target = $(this.hash);
@@ -62,7 +62,7 @@ class Navbar extends React.Component {
         if (target.length) {
           $("html, body").animate(
             {
-              scrollTop: target.offset().top - navHeight + 5
+              scrollTop: target.offset().top - navHeight + 5,
             },
             750,
             "easeInExpo"
@@ -97,44 +97,46 @@ class Navbar extends React.Component {
             <span></span>
             <span></span>
           </button>
-          <div
-            className="navbar-collapse collapse"
-            id="navbarDefault"
-          >
+          <div className="navbar-collapse collapse" id="navbarDefault">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link js-scroll active" href="#home">
-                  {
-                    this.props.resumeData ? this.props.resumeData.home : "Home"
-                  }
+                  {this.props.resumeData ? this.props.resumeData.home : "Home"}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#about">
-                  {
-                    this.props.resumeData ? this.props.resumeData.about : "About"
-                  }
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll" href="#portfolio">
-                  {
-                    this.props.resumeData ? this.props.resumeData.projects : "Projects"
-                  }
+                  {this.props.resumeData
+                    ? this.props.resumeData.about
+                    : "About"}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#skills">
-                  {
-                    this.props.resumeData ? this.props.resumeData.skills : "Skills"
-                  }
+                  {this.props.resumeData
+                    ? this.props.resumeData.skills
+                    : "Skills"}
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#resume">
+                  {this.props.resumeData
+                    ? this.props.resumeData.experience
+                    : "Experience"}
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#portfolio">
+                  {this.props.resumeData
+                    ? this.props.resumeData.projects
+                    : "Projects"}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
-                  {
-                    this.props.resumeData ? this.props.resumeData.contact : "Contact"
-                  }
+                  {this.props.resumeData
+                    ? this.props.resumeData.contact
+                    : "Contact"}
                 </a>
               </li>
             </ul>
