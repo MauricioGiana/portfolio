@@ -639,10 +639,12 @@ header h1 {
 }
 
 .skills-tile:hover {
-  filter: brightness(1.2);
+  background-color: transparentize(#400970, 0.2);
   box-shadow: inset 0px 0px 5px 5px transparentize(#2c064e, 0.2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
+  text-shadow: 0 0 5px rgba(128, 0, 255, 0.8), 0 0 10px rgba(128, 0, 255, 0.6),
+    0 0 20px rgba(128, 0, 255, 0.4);
 }
 
 .a-link {
