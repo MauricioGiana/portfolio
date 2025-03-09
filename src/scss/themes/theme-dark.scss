@@ -248,4 +248,13 @@ body[data-theme="dark"] {
     text-shadow: 0 0 5px rgba(128, 0, 255, 0.8), 0 0 10px rgba(128, 0, 255, 0.6),
       0 0 20px rgba(128, 0, 255, 0.4);
   }
+
+  .skill-progress-container {
+    background-color: transparentize(#184e77, 0.1);
+    box-shadow: inset 0px -3px 3px 2px transparentize(#2e084f, 0.3);
+  }
+
+  .skill-progress {
+    background-color: transparentize(#a5b4e4, 0);
+  }
 }

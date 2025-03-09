@@ -622,13 +622,14 @@ header h1 {
 }
 
 .skills-tile {
+  display: inline-block;
+  height: 77px;
   background-color: transparentize(#400970, 0.1);
-  padding: 10px 10px 5px 10px;
   width: 100px;
   margin: 5px 0 5px 0;
   border-radius: 8px;
-  position: relative;
   border: 0 solid;
+  position: relative;
   box-shadow: 2px 2px 2px 3px transparentize(#2c064e, 0.6),
     inset -1px -1px 5px 5px transparentize(#2c064e, 0.5);
   outline: 1px solid;
@@ -636,6 +637,7 @@ header h1 {
   outline-offset: 0px;
   text-shadow: none;
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  overflow: hidden;
 }
 
 .skills-tile:hover {
@@ -645,6 +647,18 @@ header h1 {
   outline-offset: 15px;
   text-shadow: 0 0 5px rgba(128, 0, 255, 0.8), 0 0 10px rgba(128, 0, 255, 0.6),
     0 0 20px rgba(128, 0, 255, 0.4);
+}
+
+.skill-progress-container {
+  width: 100px;
+  height: 100%;
+  background-color: transparentize(#280746, 0);
+}
+
+.skill-progress {
+  height: 100%;
+  background-color: white;
+  transition: width 0.5s ease-in-out;
 }
 
 .a-link {
