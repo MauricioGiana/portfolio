@@ -20,68 +20,54 @@ class Skills extends Component {
                 <span
                   className="skill-category"
                   style={{
-                    marginTop: index > 0 ? "30px" : "0",
+                    marginTop: index > 0 ? "20px" : "0",
                   }}
                 >
                   {categoryName}
                 </span>
                 <div className="skills-divider"></div>
-                <ul className="list-inline mx-auto dev-icons skill-icons">
+                <ul className="skill-icons">
                   {this.props.sharedSkills[categoryKey].map((skill, i) => {
                     const skillLevelLabel = this.getSkillLevelLabel(
                       skill.level
                     );
 
                     return (
-                      <li className="list-inline-item mx-3" key={i}>
-                        <span>
+                      <li
+                        className="skills-tile"
+                        data-tip={skillLevelLabel}
+                        data-for={`skill-tooltip-${i}`}
+                        key={i}
+                      >
+                        <div className="skill-icon-title">
+                          <i
+                            className={skill.class}
+                            style={{ fontSize: "2rem" }}
+                          ></i>
+                          <span style={{ fontSize: "0.8rem" }}>
+                            {skill.name}
+                          </span>
+                          {skillLevelLabel && (
+                            <ReactTooltip
+                              id={`skill-tooltip-${i}`}
+                              effect="solid"
+                              place="top"
+                            />
+                          )}
+                        </div>
+                        <div
+                          className="skill-progress-container"
+                          style={{
+                            display: skill.score ? "block" : "none",
+                          }}
+                        >
                           <div
-                            className="text-center skills-tile"
-                            data-tip={skillLevelLabel}
-                            data-for={`skill-tooltip-${i}`}
-                          >
-                            <dic
-                              style={{
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                height: "100%",
-                              }}
-                            >
-                              <div className="skill-icon-title">
-                                <i
-                                  className={skill.class}
-                                  style={{ fontSize: "2rem" }}
-                                ></i>
-                                <span
-                                  style={{ display: "flex", fontSize: "1rem" }}
-                                >
-                                  {skill.name}
-                                </span>
-                                {skillLevelLabel && (
-                                  <ReactTooltip
-                                    id={`skill-tooltip-${i}`}
-                                    effect="solid"
-                                    place="top"
-                                  />
-                                )}
-                              </div>
-                            </dic>
-                            <div
-                              className="skill-progress-container"
-                              style={{
-                                display: skill.score ? "block" : "none",
-                              }}
-                            >
-                              <div
-                                className="skill-progress"
-                                style={{
-                                  width: `${skill.score}%`,
-                                }}
-                              ></div>
-                            </div>
-                          </div>
-                        </span>
+                            className="skill-progress"
+                            style={{
+                              width: `${skill.score}%`,
+                            }}
+                          ></div>
+                        </div>
                       </li>
                     );
                   })}
@@ -101,7 +87,7 @@ class Skills extends Component {
               <span className="skills-title">{sectionName}</span>
             </h1>
           </div>
-          <div className="col-md-12 text-center">{skills}</div>
+          <div style={{ width: "70rem", margin: "0 auto" }}>{skills}</div>
         </div>
       </section>
     );
