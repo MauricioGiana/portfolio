@@ -16,10 +16,10 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 className="section-title">
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
+          <div className="row center mx-auto" style={{ marginBottom: "5%" }}>
             <img
               className="my-photo"
               src={profilepic}

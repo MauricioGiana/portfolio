@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
-import Languages from "./components/Languages";
 
 class App extends Component {
   constructor(props) {
@@ -95,6 +94,7 @@ class App extends Component {
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
+          skillsData={this.state.resumeData.skills}
         />
         <Experience
           resumeExperience={this.state.resumeData.experience}
