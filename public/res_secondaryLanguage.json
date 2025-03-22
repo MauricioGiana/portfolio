@@ -120,8 +120,8 @@
     "success": "Tu mensaje fue enviado. ¡Gracias!",
     "error": "Ocurrió un error. Por favor intenta de nuevo.",
     "title": "Mis redes",
-    "description": "Si quieres hablarme de alguna propuesta, proyecto, o simplemente saludarme, estaría encantado de escucharte. Simplemente llena el formulario y enviame un email.",
-    "description2": "Si prefieres contactarme por otros medios, o simplemente conocer más sobre mí, contáctame a través de mis redes o por WhatsApp ¡Será un gusto!"
+    "description": "Si deseas contactarme, ya sea sobre un proyecto, propuesta, o simplemente para charlar, estaré encantado.",
+    "description2": "Puedes enviarme un email, o encontrarme en LinkedIn o GitHub a través de los siguientes enlaces."
   },
   "skills": {
     "experienceLevel": {

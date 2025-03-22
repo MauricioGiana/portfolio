@@ -4,9 +4,9 @@
     "titles": ["Backend Developer"],
     "social": [
       {
-        "name": "github",
-        "url": "https://github.com/MauricioGiana",
-        "class": "fab fa-github icon"
+        "name": "gmail",
+        "url": "mailto:gianamauricio98@gmail.com",
+        "class": "fab fa-google icon"
       },
       {
         "name": "linkedin",
@@ -14,9 +14,9 @@
         "class": "fab fa-linkedin icon"
       },
       {
-        "name": "whatsapp",
-        "url": "https://wa.me/+5492634256370",
-        "class": "fab fa-whatsapp icon"
+        "name": "github",
+        "url": "https://github.com/MauricioGiana",
+        "class": "fab fa-github icon"
       }
     ],
     "image": "myProfile.png"

@@ -1005,24 +1005,17 @@ footer a:focus {
 
 #contact {
   background: #beccff;
-  padding-bottom: 4rem;
-}
-
-@media (max-width: 767px) {
-  #contact {
-    padding-bottom: 0;
-  }
+  padding: 0 5% 5% 5%;
 }
 
 .contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgb(248, 248, 248);
   padding: 2rem;
-}
-
-@media (max-width: 600px) {
-  .contact-container {
-    background: none;
-  }
+  margin: 0 auto;
+  max-width: 40rem;
 }
 
 .contact-title {
@@ -1293,13 +1286,13 @@ footer a:focus {
 }
 
 .socials-container ul li:nth-child(1) a:before {
-  background: #3b5999;
+  background: #db4437;
 }
 
 .socials-container ul li:nth-child(2) a:before {
-  background: #4190ce;
+  background: #0077b5;
 }
 
 .socials-container ul li:nth-child(3) a:before {
-  background: #1d923a;
+  background: #24292e;
 }
