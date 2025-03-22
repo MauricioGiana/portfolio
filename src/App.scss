@@ -597,7 +597,7 @@ header h1 {
   min-height: 200px;
   width: 100%;
   overflow: hidden;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .skills-title {
@@ -614,22 +614,13 @@ header h1 {
   text-align: center;
 }
 
-.skill-icon {
-  font-size: 180%;
-  color: white;
-  text-align: center;
-  position: relative;
-}
-
 .skills-tile {
   display: inline-block;
-  height: 77px;
+  height: 50px;
   background-color: transparentize(#400970, 0.1);
   width: 100px;
   margin: 5px 0 5px 0;
   border-radius: 8px;
-  border: 0 solid;
-  position: relative;
   box-shadow: 2px 2px 2px 3px transparentize(#2c064e, 0.6),
     inset -1px -1px 5px 5px transparentize(#2c064e, 0.5);
   outline: 1px solid;
@@ -649,9 +640,24 @@ header h1 {
     0 0 20px rgba(128, 0, 255, 0.4);
 }
 
+.skill-icon-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  gap: 5px;
+  color: white;
+}
+
+.skill-category {
+  color: black;
+  display: block;
+  font: 16px/24px "opensans-bold", sans-serif;
+}
+
 .skill-progress-container {
   width: 100px;
-  height: 100%;
+  height: 5px;
   background-color: transparentize(#280746, 0);
 }
 
@@ -659,6 +665,19 @@ header h1 {
   height: 100%;
   background-color: white;
   transition: width 0.5s ease-in-out;
+}
+
+.skills-divider {
+  background-color: transparentize(#400970, 0.1);
+  display: block;
+  font-size: 20px;
+  height: 1px;
+  width: 70rem;
+  margin: 5px auto 10px auto;
+}
+
+.skill-icons {
+  max-width: 60rem;
 }
 
 .a-link {

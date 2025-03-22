@@ -236,6 +236,10 @@ body[data-theme="dark"] {
     color: #bbc7e0;
   }
 
+  .skill-category {
+    color: white;
+  }
+
   .skills-tile {
     background-color: transparentize(#0a1128, 0.1);
     outline-color: rgba(190, 182, 206, 0.74);
@@ -255,6 +259,10 @@ body[data-theme="dark"] {
   }
 
   .skill-progress {
+    background-color: transparentize(#a5b4e4, 0);
+  }
+
+  .skills-divider {
     background-color: transparentize(#a5b4e4, 0);
   }
 }
