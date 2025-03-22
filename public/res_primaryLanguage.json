@@ -171,5 +171,20 @@
     "title": "My networks",
     "description": "If you want to talk to me about any proposal, project, or just say hello, I would be delighted to hear you. Simply fill out the form and send me an email.",
     "description2": "If you prefer to contact me by other means, or simply know more about me, contact me through my networks or WhatsApp. It will be a pleasure!"
+  },
+  "skills": {
+    "experienceLevel": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "expert": "Expert"
+    },
+    "categories": {
+      "backend": "Backend development",
+      "db": "Database & Storage",
+      "cloud": "Cloud and infrastructure",
+      "security": "Security",
+      "other": "Others"
+    }
   }
 }

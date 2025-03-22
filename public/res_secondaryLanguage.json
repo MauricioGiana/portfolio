@@ -122,5 +122,20 @@
     "title": "Mis redes",
     "description": "Si quieres hablarme de alguna propuesta, proyecto, o simplemente saludarme, estaría encantado de escucharte. Simplemente llena el formulario y enviame un email.",
     "description2": "Si prefieres contactarme por otros medios, o simplemente conocer más sobre mí, contáctame a través de mis redes o por WhatsApp ¡Será un gusto!"
+  },
+  "skills": {
+    "experienceLevel": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado",
+      "expert": "Experto"
+    },
+    "categories": {
+      "backend": "Desarrollo backend",
+      "db": "Bases de datos y almacenamiento",
+      "cloud": "Cloud e infraestructura",
+      "security": "Seguridad",
+      "other": "Otros"
+    }
   }
 }

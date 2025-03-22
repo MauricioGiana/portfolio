@@ -22,114 +22,170 @@
     "image": "myProfile.png"
   },
   "skills": {
-    "icons": [
+    "backend": [
       {
         "name": "JavaScript",
         "class": "devicon-javascript-plain",
-        "level": "70",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        "score": "75",
+        "level": "advanced"
       },
       {
         "name": "Typescript",
         "class": "devicon-typescript-plain",
-        "level": "70",
-        "link": "https://www.typescriptlang.org"
+        "level": "advanced",
+        "score": "75"
       },
       {
-        "name": "Node.js",
-        "class": "devicon-nodejs-plain",
-        "level": "90",
-        "link": "https://nodejs.org/en/"
+        "name": "Go",
+        "class": "devicon-go-plain",
+        "level": "beginner",
+        "score": "20"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "beginner",
+        "score": "20"
       },
       {
         "name": "Express.js",
         "class": "devicon-express-original",
-        "level": "75",
-        "link": "https://expressjs.com/"
+        "level": "advanced",
+        "score": "75"
       },
+      {
+        "name": "Adonisjs",
+        "class": "devicon-adonisjs-original",
+        "level": "advanced",
+        "score": "75"
+      },
+      {
+        "name": "Microservices",
+        "class": "devicon-microservices-original",
+        "level": "intermediate",
+        "score": "50"
+      },
+      {
+        "name": "Hexagonal acrchitecture",
+        "class": "devicon-hexagonal-plain",
+        "level": "intermediate",
+        "score": "50"
+      },
+      {
+        "name": "Event driven",
+        "class": "devicon-event-driven",
+        "level": "intermediate",
+        "score": "40"
+      }
+    ],
+    "db": [
       {
         "name": "MySQL",
         "class": "devicon-mysql-plain",
-        "level": "70",
-        "link": "https://www.mysql.com"
+        "level": "intermediate",
+        "score": "50"
       },
       {
         "name": "MongoDB",
         "class": "devicon-mongodb-plain",
-        "level": "70",
-        "link": "https://www.mongodb.com"
-      },
-      {
-        "name": "Sequelize",
-        "class": "devicon-sequelize-plain",
-        "level": "65",
-        "link": "https://sequelize.org/"
+        "level": "intermediate",
+        "score": "55"
       },
       {
         "name": "PostgreSQL",
         "class": "devicon-postgresql-plain",
-        "level": "60",
-        "link": "https://www.postgresql.org/"
+        "level": "intermediate",
+        "score": "40"
       },
       {
-        "name": "HTML 5",
-        "class": "devicon-html5-plain",
-        "level": "95",
-        "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+        "name": "AthenaDB",
+        "class": "devicon-athena-plain",
+        "level": "intermediate",
+        "score": "20"
       },
       {
-        "name": "React",
-        "class": "devicon-react-plain",
-        "level": "80",
-        "link": "https://reactjs.org/"
+        "name": "Redis",
+        "class": "devicon-redis-plain",
+        "level": "intermediate",
+        "score": "20"
       },
       {
-        "name": "Redux",
-        "class": "devicon-redux-original",
-        "level": "80",
-        "link": "https://redux.js.org/"
+        "name": "Elasticasearch",
+        "class": "devicon-elasticsearch-plain",
+        "level": "intermediate",
+        "score": "20"
+      }
+    ],
+    "cloud": [
+      {
+        "name": "AWS Lambda",
+        "class": "devicon-awslambda-plain",
+        "level": "intermediate",
+        "score": "55"
       },
       {
-        "name": "CSS 3",
-        "class": "devicon-css3-plain",
-        "level": "95",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        "name": "AWS API Gateway",
+        "class": "devicon-apigateway-plain",
+        "level": "beginner",
+        "score": "55"
+      }
+    ],
+    "security": [
+      {
+        "name": "JWT",
+        "class": "devicon-jwt-plain",
+        "level": "intermediate",
+        "score": "50"
       },
       {
-        "name": "Github",
-        "class": "devicon-github-plain",
-        "level": "60",
-        "link": "https://docs.github.com/en/"
+        "name": "RBAC",
+        "class": "devicon-rbac-plain",
+        "level": "intermediate",
+        "score": "40"
       },
       {
-        "name": "Socket.io",
-        "class": "devicon-socketio-original",
-        "level": "60",
-        "link": "https://socket.io/"
+        "name": "OWASP Top 10",
+        "class": "devicon-owasp-plain",
+        "level": "intermediate",
+        "score": "40"
+      }
+    ],
+    "other": [
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "intermediate",
+        "score": "40"
       },
       {
-        "name": "Heroku",
-        "class": "devicon-heroku-original",
-        "level": "60",
-        "link": "https://www.heroku.com/"
+        "name": "GitLab",
+        "class": "devicon-gitlab-plain",
+        "level": "intermediate",
+        "score": "40"
       },
       {
-        "name": "Firebase",
-        "class": "devicon-firebase-plain",
-        "level": "60",
-        "link": "https://firebase.google.com/"
+        "name": "Jira",
+        "class": "devicon-jira-plain",
+        "level": "intermediate",
+        "score": "40"
       },
       {
-        "name": "Bootstrap",
-        "class": "devicon-bootstrap-plain",
-        "level": "85",
-        "link": "https://getbootstrap.com/"
+        "name": "Confluence",
+        "class": "devicon-confluence-plain",
+        "level": "intermediate",
+        "score": "40"
       },
       {
-        "name": "Material UI",
-        "class": "devicon-materialui-plain",
-        "level": "85",
-        "link": "https://material-ui.com/"
+        "name": "OpenTelemetry",
+        "class": "devicon-opentelemetry-plain",
+        "level": "beginner",
+        "score": "25"
+      },
+      {
+        "name": "Web Sockets",
+        "class": "devicon-websocket-original",
+        "level": "beginner",
+        "score": "25"
       }
     ]
   }
