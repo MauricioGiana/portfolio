@@ -596,8 +596,8 @@ header h1 {
   background: #a4b4fd;
   min-height: 200px;
   width: 100%;
+  padding: 5%;
   overflow: hidden;
-  padding-bottom: 5%;
 }
 
 .skills-title {
@@ -612,6 +612,11 @@ header h1 {
   letter-spacing: 3px;
   color: white;
   text-align: center;
+}
+
+.skills-container {
+  max-width: 70rem;
+  margin: auto;
 }
 
 .skill-category {
@@ -674,7 +679,7 @@ header h1 {
   display: block;
   font-size: 20px;
   height: 1px;
-  width: 70rem;
+  max-width: 70rem;
   margin: 5px auto 10px auto;
 }
 
@@ -1219,7 +1224,6 @@ footer a:focus {
   display: flex;
   justify-content: flex-start;
   gap: 2rem;
-  padding: 0;
   width: fit-content;
   margin: 2rem 1rem;
 }

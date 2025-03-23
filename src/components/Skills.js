@@ -15,8 +15,8 @@ class Skills extends Component {
           const categoryName = this.props.skillsData.categories[categoryKey];
 
           return (
-            <React.Fragment key={categoryKey}>
-              <div className="subheading mb-3">
+            <React.Fragment key={categoryKey} style={{ width: "50%" }}>
+              <div className="skills-container">
                 <span
                   className="skill-category"
                   style={{
@@ -81,14 +81,10 @@ class Skills extends Component {
 
     return (
       <section id="skills">
-        <div className="col-md-12">
-          <div className="col-md-12">
-            <h1 className="section-title">
-              <span className="skills-title">{sectionName}</span>
-            </h1>
-          </div>
-          <div style={{ width: "70rem", margin: "0 auto" }}>{skills}</div>
-        </div>
+        <h1 className="section-title">
+          <span className="skills-title">{sectionName}</span>
+        </h1>
+        {skills}
       </section>
     );
   }
