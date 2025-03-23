@@ -1247,10 +1247,9 @@ footer a:focus {
 
 .socials-container ul {
   display: flex;
-  justify-content: flex-start;
   gap: 2rem;
-  width: fit-content;
-  margin: 2rem 1rem;
+  padding: 0;
+  margin-top: 2rem;
 }
 
 .socials-container ul li {
