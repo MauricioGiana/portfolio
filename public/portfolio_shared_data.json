@@ -76,6 +76,18 @@
         "class": "devicon-event-driven",
         "level": "intermediate",
         "score": "40"
+      },
+      {
+        "name": "Web Sockets",
+        "class": "devicon-websocket-original",
+        "level": "beginner",
+        "score": "25"
+      },
+      {
+        "name": "OpenTelemetry",
+        "class": "devicon-opentelemetry-plain",
+        "level": "beginner",
+        "score": "25"
       }
     ],
     "db": [
@@ -128,6 +140,12 @@
         "class": "devicon-apigateway-plain",
         "level": "beginner",
         "score": "55"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "intermediate",
+        "score": "40"
       }
     ],
     "security": [
@@ -150,13 +168,7 @@
         "score": "40"
       }
     ],
-    "other": [
-      {
-        "name": "Docker",
-        "class": "devicon-docker-plain",
-        "level": "intermediate",
-        "score": "40"
-      },
+    "tools": [
       {
         "name": "GitLab",
         "class": "devicon-gitlab-plain",
@@ -174,18 +186,6 @@
         "class": "devicon-confluence-plain",
         "level": "intermediate",
         "score": "40"
-      },
-      {
-        "name": "OpenTelemetry",
-        "class": "devicon-opentelemetry-plain",
-        "level": "beginner",
-        "score": "25"
-      },
-      {
-        "name": "Web Sockets",
-        "class": "devicon-websocket-original",
-        "level": "beginner",
-        "score": "25"
       }
     ]
   }

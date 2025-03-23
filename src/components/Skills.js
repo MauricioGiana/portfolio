@@ -44,7 +44,7 @@ class Skills extends Component {
                             className={skill.class}
                             style={{ fontSize: "2rem" }}
                           ></i>
-                          <span style={{ fontSize: "0.8rem" }}>
+                          <span style={{ fontSize: "0.9rem" }}>
                             {skill.name}
                           </span>
                           {skillLevelLabel && (
