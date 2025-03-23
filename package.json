@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "http://localhost:3000",
+  "homepage": "https://mauricio-gian.github.io/portfolio/",
   "version": "0.1.2",
   "private": true,
   "dependencies": {
