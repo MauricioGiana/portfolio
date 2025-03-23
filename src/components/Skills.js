@@ -17,7 +17,7 @@ class Skills extends Component {
     }
 
     return (
-      <img src={`/icons/${skill.asset}.svg`} className="skill-icon" alt="</>" />
+      <img src={`icons/${skill.asset}.svg`} className="skill-icon" alt="</>" />
     );
   }
 
