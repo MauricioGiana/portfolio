@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReactTooltip from "react-tooltip";
 import { Icon } from "@iconify/react";
-import { getIcon } from "../assets/icons";
 
 class Skills extends Component {
   getSkillLevelLabel(skillLevel) {
@@ -17,9 +16,9 @@ class Skills extends Component {
       return <Icon icon={skill.icon} className="skill-icon" />;
     }
 
-    const LocalIcon = getIcon(skill.asset);
-
-    return <LocalIcon className="skill-icon" />;
+    return (
+      <img src={`/icons/${skill.asset}.svg`} className="skill-icon" alt="</>" />
+    );
   }
 
   render() {
