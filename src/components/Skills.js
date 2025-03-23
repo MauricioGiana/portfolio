@@ -1,9 +1,25 @@
 import React, { Component } from "react";
 import ReactTooltip from "react-tooltip";
+import { Icon } from "@iconify/react";
+import { getIcon } from "../assets/icons";
 
 class Skills extends Component {
   getSkillLevelLabel(skillLevel) {
     return this.props.skillsData?.experienceLevel?.[skillLevel];
+  }
+
+  getSkillIcon(skill) {
+    if (skill.class) {
+      return <i className={skill.class + " skill-icon"}></i>;
+    }
+
+    if (skill.icon) {
+      return <Icon icon={skill.icon} className="skill-icon" />;
+    }
+
+    const LocalIcon = getIcon(skill.asset);
+
+    return <LocalIcon className="skill-icon" />;
   }
 
   render() {
@@ -15,7 +31,7 @@ class Skills extends Component {
           const categoryName = this.props.skillsData.categories[categoryKey];
 
           return (
-            <React.Fragment key={categoryKey} style={{ width: "50%" }}>
+            <React.Fragment key={categoryKey}>
               <div className="skills-container">
                 <span
                   className="skill-category"
@@ -40,13 +56,8 @@ class Skills extends Component {
                         key={i}
                       >
                         <div className="skill-icon-title">
-                          <i
-                            className={skill.class}
-                            style={{ fontSize: "2rem" }}
-                          ></i>
-                          <span style={{ fontSize: "0.9rem" }}>
-                            {skill.name}
-                          </span>
+                          {this.getSkillIcon(skill)}
+                          <span className="skill-name">{skill.name}</span>
                           {skillLevelLabel && (
                             <ReactTooltip
                               id={`skill-tooltip-${i}`}

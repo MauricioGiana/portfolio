@@ -61,25 +61,25 @@
       },
       {
         "name": "Microservices",
-        "class": "devicon-microservices-original",
+        "class": "fas fa-network-wired",
         "level": "intermediate",
         "score": "50"
       },
       {
         "name": "Hexagonal acrchitecture",
-        "class": "devicon-hexagonal-plain",
+        "class": "ph ph-hexagon",
         "level": "intermediate",
         "score": "50"
       },
       {
         "name": "Event driven",
-        "class": "devicon-event-driven",
+        "class": "fa-solid fa-broadcast-tower",
         "level": "intermediate",
         "score": "40"
       },
       {
         "name": "Web Sockets",
-        "class": "devicon-websocket-original",
+        "class": "fas fa-exchange-alt",
         "level": "beginner",
         "score": "25"
       },
@@ -111,7 +111,7 @@
       },
       {
         "name": "AthenaDB",
-        "class": "devicon-athena-plain",
+        "class": "devicon-amazonwebservices-plain-wordmark",
         "level": "intermediate",
         "score": "20"
       },
@@ -131,13 +131,13 @@
     "cloud": [
       {
         "name": "AWS Lambda",
-        "class": "devicon-awslambda-plain",
+        "asset": "aws_lambda",
         "level": "intermediate",
         "score": "55"
       },
       {
         "name": "AWS API Gateway",
-        "class": "devicon-apigateway-plain",
+        "asset": "aws_api_gateway",
         "level": "beginner",
         "score": "55"
       },
@@ -151,19 +151,19 @@
     "security": [
       {
         "name": "JWT",
-        "class": "devicon-jwt-plain",
+        "class": "fas fa-key",
         "level": "intermediate",
         "score": "50"
       },
       {
         "name": "RBAC",
-        "class": "devicon-rbac-plain",
+        "class": "fas fa-user-shield",
         "level": "intermediate",
         "score": "40"
       },
       {
         "name": "OWASP Top 10",
-        "class": "devicon-owasp-plain",
+        "class": "fas fa-shield-virus",
         "level": "intermediate",
         "score": "40"
       }

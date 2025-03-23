@@ -626,7 +626,8 @@ header h1 {
 }
 
 .skills-tile {
-  display: block;
+  display: flex;
+  flex-direction: column;
   height: 43px;
   background-color: transparentize(#400970, 0.1);
   width: 100px;
@@ -653,14 +654,37 @@ header h1 {
 
 .skill-icon-title {
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   height: 40.5px;
-  width: 90%;
-  gap: 5px;
+  gap: 4px;
   color: white;
   margin: 0 auto;
+  padding: 0 10px;
+}
+
+.skill-icon {
+  width: 2rem;
+  height: 2rem;
+  font-size: large;
+
+  &.fa-network-wired,
+  &.fa-broadcast-tower,
+  &.fa-exchange-alt {
+    font-size: medium;
+  }
+
+  &.fa-user-shield {
+    font-size: small;
+  }
+}
+
+.skill-icon path {
+  fill: white;
+}
+
+.skill-name {
+  font-size: 0.9rem;
 }
 
 .skill-progress-container {
