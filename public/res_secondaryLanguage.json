@@ -23,6 +23,53 @@
   },
   "projects": [
     {
+      "title": "Buscador de pasajes",
+      "startDate": "12/2024",
+      "description": "Una pequeña herramienta de uso personal que simplifica la consulta de pasajes de colectivo disponibles en la plataforma CNRT. La misma permite consultar a granel por rango de fechas, lo que la hace mucho más práctica que la consulta por día en la página web. Cuenta con una UI (para pc) y un script que se ejecuta por terminal (para smartphone). Me ayuda a estar al tanto de los pasajes disponibles de forma fácil y rápida.",
+      "images": [
+        "images/portfolio/ticket-searcher/form_01.png",
+        "images/portfolio/ticket-searcher/form_02.png",
+        "images/portfolio/ticket-searcher/form_03.png",
+        "images/portfolio/ticket-searcher/terminal_01.png",
+        "images/portfolio/ticket-searcher/terminal_02.png",
+        "images/portfolio/ticket-searcher/terminal_03.png",
+        "images/portfolio/ticket-searcher/terminal_04.png",
+        "images/portfolio/ticket-searcher/terminal_05.png"
+      ],
+      "url": "https://github.com/MauricioGiana/ticket_alert",
+      "technologies": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain"
+        }
+      ]
+    },
+    {
+      "title": "Work-App",
+      "startDate": "01/2022 - 02/2022",
+      "description": "Elaboración con un equipo de trabajo de 6 integrantes de una página web cuyo objetivo es conectar personas que ofrecen servicios a pequeña escala (tales como carpintería, construcción, etc), con los potenciales clientes de la misma, facilitando y acelerando la posibilidad tanto de ser contratado como de encontrar un trabajador que coincida con mis necesidades. El usuario puede postear solicitudes de servicio, contactar con trabajadores de su interés, ofrecer sus servicios a otros usuarios solicitantes, recibir alertas de empleo, entre otros.",
+      "images": [
+        "images/portfolio/work-app/p1.png",
+        "images/portfolio/work-app/p2.png",
+        "images/portfolio/work-app/p3.png"
+      ],
+      "url": "https://work-app-front-lime.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-firebase-original",
+          "name": "Firebase"
+        }
+      ]
+    },
+    {
       "title": "Pokemon-App",
       "startDate": "11/2021 - 12/2021",
       "description": "Creación de una SPA (Single Page Application), con temática \"Pokemon\", la cual por un lado, trae información de una API, y por otro lado cuenta con una base de datos a través de la cual el usuario puede crear, editar o eliminar sus propios pokemons. La app permite buscar, filtrar, ordenar y agregar a favoritos los distintos pokemons.",
@@ -49,31 +96,6 @@
         {
           "class": "devicon-postgresql-plain",
           "name": "Postgresql"
-        }
-      ]
-    },
-    {
-      "title": "Work-App",
-      "startDate": "01/2022 - 02/2022",
-      "description": "Elaboración con un equipo de trabajo de 6 integrantes de una página web cuyo objetivo es conectar personas que ofrecen servicios a pequeña escala (tales como carpintería, construcción, etc), con los potenciales clientes de la misma, facilitando y acelerando la posibilidad tanto de ser contratado como de encontrar un trabajador que coincida con mis necesidades. El usuario puede postear solicitudes de servicio, contactar con trabajadores de su interés, ofrecer sus servicios a otros usuarios solicitantes, recibir alertas de empleo, entre otros.",
-      "images": [
-        "images/portfolio/work-app/p1.png",
-        "images/portfolio/work-app/p2.png",
-        "images/portfolio/work-app/p3.png"
-      ],
-      "url": "https://work-app-front-lime.vercel.app/",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-firebase-original",
-          "name": "Firebase"
         }
       ]
     }

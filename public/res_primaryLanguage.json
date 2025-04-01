@@ -23,53 +23,24 @@
   },
   "projects": [
     {
-      "title": "Pokemon-App",
-      "startDate": "11/2021 - 12/2021",
-      "description": "Creation of a SPA (Single Page Application), with a \"Pokemon\" theme, which on the one hand brings information from an API, and on the other hand has a database through which the user can create, edit or delete his own pokemons. The app allows you to search, filter, sort and add different pokemons to favorites.",
+      "title": "Ticket searcher",
+      "startDate": "12/2024",
+      "description": "A small tool for personal use that simplifies checking available bus tickets on the CNRT platform. It allows bulk queries by date range, making it much more practical than checking by day on the website. It has a UI (for PCs) and a script that runs on a terminal (for smartphones). It helps me stay up-to-date with available tickets quickly and easily.",
       "images": [
-        "images/portfolio/pokemon-app/p1.png",
-        "images/portfolio/pokemon-app/p2.png",
-        "images/portfolio/pokemon-app/p3.png",
-        "images/portfolio/pokemon-app/p4.png",
-        "images/portfolio/pokemon-app/p5.png",
-        "images/portfolio/pokemon-app/p6.png",
-        "images/portfolio/pokemon-app/p7.png",
-        "images/portfolio/pokemon-app/p8.png"
+        "images/portfolio/ticket-searcher/form_01.png",
+        "images/portfolio/ticket-searcher/form_02.png",
+        "images/portfolio/ticket-searcher/form_03.png",
+        "images/portfolio/ticket-searcher/terminal_01.png",
+        "images/portfolio/ticket-searcher/terminal_02.png",
+        "images/portfolio/ticket-searcher/terminal_03.png",
+        "images/portfolio/ticket-searcher/terminal_04.png",
+        "images/portfolio/ticket-searcher/terminal_05.png"
       ],
-      "url": "https://pokemon-app-front.vercel.app/",
+      "url": "https://github.com/MauricioGiana/ticket_alert",
       "technologies": [
         {
-          "name": "Node.js",
-          "class": "devicon-nodejs-plain",
-          "level": "90"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express.js"
-        },
-        {
-          "class": "devicon-react-plain",
-          "name": "React"
-        },
-        {
-          "name": "Redux",
-          "class": "devicon-redux-original"
-        },
-        {
-          "class": "devicon-postgresql-plain",
-          "name": "Postgresql"
-        },
-        {
-          "name": "Sequelize",
-          "class": "devicon-sequelize-plain"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain"
-        },
-        {
-          "name": "Heroku",
-          "class": "devicon-heroku-original"
+          "name": "Python",
+          "class": "devicon-python-plain"
         }
       ]
     },
@@ -119,6 +90,57 @@
         {
           "name": "Material UI",
           "class": "devicon-materialui-plain"
+        },
+        {
+          "name": "Heroku",
+          "class": "devicon-heroku-original"
+        }
+      ]
+    },
+    {
+      "title": "Pokemon-App",
+      "startDate": "11/2021 - 12/2021",
+      "description": "Creation of a SPA (Single Page Application), with a \"Pokemon\" theme, which on the one hand brings information from an API, and on the other hand has a database through which the user can create, edit or delete his own pokemons. The app allows you to search, filter, sort and add different pokemons to favorites.",
+      "images": [
+        "images/portfolio/pokemon-app/p1.png",
+        "images/portfolio/pokemon-app/p2.png",
+        "images/portfolio/pokemon-app/p3.png",
+        "images/portfolio/pokemon-app/p4.png",
+        "images/portfolio/pokemon-app/p5.png",
+        "images/portfolio/pokemon-app/p6.png",
+        "images/portfolio/pokemon-app/p7.png",
+        "images/portfolio/pokemon-app/p8.png"
+      ],
+      "url": "https://pokemon-app-front.vercel.app/",
+      "technologies": [
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "90"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-original"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql"
+        },
+        {
+          "name": "Sequelize",
+          "class": "devicon-sequelize-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
         },
         {
           "name": "Heroku",
