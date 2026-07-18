@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Portfolio of Mauricio Giana, a Backend Engineer focused on reliable systems, APIs, observability, and intelligent automation." />
+    <title>Mauricio Giana | Backend Engineer</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+    <script>
+        tailwind = {
+            config: {
+                theme: {
+                    extend: {
+                        colors: {
+                            brand: {
+                                50: '#f0fdf4',
+                                100: '#dcfce7',
+                                500: '#34d399',
+                                600: '#10b981',
+                                700: '#059669'
+                            }
+                        },
+                        fontFamily: {
+                            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif']
+                        }
+                    }
+                }
+            }
+        };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .text-balance {
+            text-wrap: balance;
+        }
+
+        section[id],
+        footer[id] {
+            scroll-margin-top: 6rem;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-slate-950 text-slate-200 antialiased selection:bg-emerald-500/30">
+    <a href="#main-content"
+        class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:text-slate-900">
+        Skip to content
+    </a>
+
+    <div class="mx-auto flex min-h-screen max-w-6xl flex-col px-4 py-6 sm:px-6 lg:px-8">
+        <!-- Encabezado Fijo con transiciones suaves -->
+        <header id="main-header"
+            class="sticky top-0 z-50 mb-10 flex w-full items-center border-b border-white/0 bg-transparent transition-all duration-300 sm:h-16">
+            <div class="flex w-full flex-col gap-4 pt-2 sm:flex-row sm:items-center sm:justify-between sm:pt-0">
+                <!-- Bloque del Título (Se oculta suavemente al bajar) -->
+                <div id="header-title"
+                    class="transition-all duration-300 origin-left transform scale-100 opacity-100 max-h-20">
+                    <p class="text-sm uppercase tracking-[0.35em] text-emerald-400">Mauricio Giana</p>
+                    <h1 class="text-xl font-semibold text-white">Backend Engineer · Systems & Automation</h1>
+                </div>
+
+                <!-- Bloque de Navegación -->
+                <nav aria-label="Primary"
+                    class="flex flex-wrap items-center gap-4 pb-3 text-sm text-slate-400 sm:ml-auto sm:pb-0">
+                    <!-- Botón Home siempre visible -->
+                    <a class="nav-link transition-colors duration-200 text-slate-400 hover:text-emerald-300 flex items-center"
+                        href="#" aria-label="Home" data-section="home">
+                        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            <polyline points="9 22 9 12 15 12 15 22" />
+                        </svg>
+                    </a>
+
+                    <a class="nav-link transition-colors duration-200 hover:text-emerald-300" href="#about"
+                        data-section="about">About</a>
+                    <a class="nav-link transition-colors duration-200 hover:text-emerald-300" href="#stack"
+                        data-section="stack">Stack</a>
+                    <a class="nav-link transition-colors duration-200 hover:text-emerald-300" href="#experience"
+                        data-section="experience">Experience</a>
+                    <a class="nav-link transition-colors duration-200 hover:text-emerald-300" href="#contact"
+                        data-section="contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main-content" class="flex-1 space-y-16">
+            <section class="grid items-center gap-10 lg:grid-cols-[1.2fr_0.8fr]">
+                <div class="space-y-6">
+                    <div
+                        class="inline-flex items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-sm text-emerald-300">
+                        <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+                        Focused on reliable architecture & systems
+                    </div>
+                    <div class="space-y-4">
+                        <h2 class="max-w-3xl text-balance text-4xl font-semibold leading-tight text-white sm:text-5xl">
+                            Building reliable software from the backend up.
+                        </h2>
+                        <p class="max-w-2xl text-lg leading-8 text-slate-300">
+                            I design APIs, event-driven systems, and secure services with a strong focus on
+                            observability,
+                            resilience, and pragmatic automation.
+                        </p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row flex-wrap gap-4 w-full sm:w-auto">
+                        <a href="#experience"
+                            class="w-full sm:w-auto inline-flex justify-center items-center rounded-full bg-emerald-500 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-400 shadow-md">
+                            View experience
+                        </a>
+                        <a href="https://drive.google.com/file/d/1r0EHjGg9ikW1LA2Wf6XEUteKOxh4YXOz/view?usp=drive_link"
+                            target="_blank" rel="noreferrer"
+                            class="w-full sm:w-auto inline-flex justify-center items-center rounded-full border border-white/10 px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-emerald-400/50 hover:text-emerald-300 bg-slate-900/20">
+                            <svg class="mr-2 h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Download Resume
+                        </a>
+                        <a href="mailto:gianamauricio98@gmail.com"
+                            class="w-full sm:w-auto inline-flex justify-center items-center rounded-full border border-white/10 px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-emerald-400/50 hover:text-emerald-300 bg-slate-900/20">
+                            Get in touch
+                        </a>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-black/20 backdrop-blur">
+                    <div class="flex items-center justify-between">
+                        <p class="text-sm uppercase tracking-[0.25em] text-slate-400">Current focus</p>
+                        <span
+                            class="rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-xs text-emerald-300">4+
+                            years</span>
+                    </div>
+                    <div class="mt-6 space-y-4">
+                        <div class="rounded-xl border border-white/10 bg-slate-900/60 p-4">
+                            <p class="text-sm text-slate-400">Core strengths</p>
+                            <p class="mt-2 text-lg font-medium text-white">Go · TypeScript · Node.js · RabbitMQ ·
+                                OpenTelemetry</p>
+                        </div>
+                        <div class="grid gap-3 sm:grid-cols-2">
+                            <div class="rounded-xl border border-white/10 bg-slate-900/60 p-4">
+                                <p class="text-sm text-slate-400">Systems thinking</p>
+                                <p class="mt-2 font-medium text-white">Architecture, performance, and maintainability
+                                </p>
+                            </div>
+                            <div class="rounded-xl border border-white/10 bg-slate-900/60 p-4">
+                                <p class="text-sm text-slate-400">Automation</p>
+                                <p class="mt-2 font-medium text-white">Agentic workflows with AI-assisted delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+                <div class="space-y-3">
+                    <p class="text-sm uppercase tracking-[0.25em] text-emerald-400">About</p>
+                    <h3 class="text-2xl font-semibold text-white">Engineering with a systems mindset.</h3>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6 text-slate-300">
+                    <p class="leading-8">
+                        I am a backend engineer with a strong foundation in software design, distributed systems, and
+                        secure development.
+                        My work has centered on building integrations, messaging flows, and internal platforms that
+                        connect business value
+                        with reliable execution.
+                    </p>
+                    <p class="mt-4 leading-8">
+                        Over time, my workflow has evolved toward agentic engineering: combining AI tools and automation
+                        with disciplined
+                        architecture so that the highest-value work stays focused on design, resilience, and
+                        problem-solving.
+                    </p>
+                </div>
+            </section>
+
+            <section id="stack" class="space-y-6">
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                    <div>
+                        <p class="text-sm uppercase tracking-[0.25em] text-emerald-400">Stack</p>
+                        <h3 class="text-2xl font-semibold text-white">Technical toolkit</h3>
+                    </div>
+                    <p class="max-w-2xl text-sm leading-7 text-slate-400">
+                        A practical stack focused on backend delivery, integrations, reliability, and modern developer
+                        workflows.
+                    </p>
+                </div>
+
+                <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+                        <h4 class="font-semibold text-white">Languages & runtimes</h4>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                            <li>• TypeScript and JavaScript</li>
+                            <li>• Go for production systems</li>
+                            <li>• Python for automation and services</li>
+                        </ul>
+                    </article>
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+                        <h4 class="font-semibold text-white">Backend architecture</h4>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                            <li>• REST APIs and internal services</li>
+                            <li>• Event-driven architecture</li>
+                            <li>• Clean and maintainable service boundaries</li>
+                        </ul>
+                    </article>
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+                        <h4 class="font-semibold text-white">Data & messaging</h4>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                            <li>• PostgreSQL, MySQL, MongoDB</li>
+                            <li>• Redis and caching layers</li>
+                            <li>• RabbitMQ and asynchronous workflows</li>
+                        </ul>
+                    </article>
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+                        <h4 class="font-semibold text-white">Observability & security</h4>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                            <li>• OpenTelemetry and distributed tracing</li>
+                            <li>• OWASP-aware development practices</li>
+                            <li>• AuthN/AuthZ, rate limiting, validation</li>
+                        </ul>
+                    </article>
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+                        <h4 class="font-semibold text-white">Cloud & tooling</h4>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                            <li>• AWS services and serverless patterns</li>
+                            <li>• Docker-based local and delivery workflows</li>
+                            <li>• Git and streamlined engineering operations</li>
+                        </ul>
+                    </article>
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-5">
+                        <h4 class="font-semibold text-white">AI-assisted delivery</h4>
+                        <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                            <li>• Agentic engineering workflows</li>
+                            <li>• LLM integration and automation</li>
+                            <li>• Faster iteration without sacrificing quality</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section id="experience" class="space-y-6">
+                <div>
+                    <p class="text-sm uppercase tracking-[0.25em] text-emerald-400">Experience</p>
+                    <h3 class="text-2xl font-semibold text-white">Selected work and engineering focus</h3>
+                </div>
+
+                <div class="space-y-3">
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60" data-accordion-item>
+                        <button class="flex w-full items-center justify-between px-5 py-4 text-left" type="button"
+                            data-accordion-button aria-expanded="true" aria-controls="panel-revai">
+                            <span>
+                                <span class="block text-lg font-semibold text-white">Backend Engineer · REVAI</span>
+                                <span class="mt-1 block text-sm text-slate-400">HealthTech · Remote · 2022 –
+                                    Present</span>
+                            </span>
+                            <svg class="h-5 w-5 shrink-0 transform transition-transform duration-200 text-slate-400"
+                                viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="panel-revai" class="overflow-hidden transition-all duration-300 ease-in-out px-5"
+                            data-accordion-panel>
+                            <div class="pb-5">
+                                <ul class="space-y-3 text-sm leading-7 text-slate-300">
+                                    <li>• Designed an event-driven integration with external calendars and RabbitMQ to
+                                        manage appointment lifecycles.</li>
+                                    <li>• Built secure OAuth flows and messaging orchestration for communication
+                                        systems.
+                                    </li>
+                                    <li>• Introduced observability using OpenTelemetry to improve debugging and service
+                                        correlation.</li>
+                                    <li>• Applied security-minded engineering practices aligned with OWASP guidance.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="cases" class="mt-16 space-y-6">
+                <div>
+                    <p class="text-sm uppercase tracking-[0.25em] text-emerald-400">Key Contributions</p>
+                    <h3 class="text-2xl font-semibold text-white">Architectural Case Studies</h3>
+                    <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-400">
+                        A selection of architectural milestones and system-level contributions delivered within my
+                        professional experience, demonstrating how technical decisions drove reliability,
+                        scalability, and measurable business impact.
+                    </p>
+                </div>
+
+                <div class="space-y-3">
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60" data-accordion-item>
+                        <button class="flex w-full items-center justify-between px-5 py-4 text-left" type="button"
+                            data-accordion-button aria-expanded="false" aria-controls="panel-case-1">
+                            <span>
+                                <span class="block text-lg font-semibold text-white">Milestone #1: Secure Agentic
+                                    Integration Platform (AI Assistants & Meta Provider Gateway)</span>
+                                <span class="mt-1 block text-sm text-slate-400">Node.js · Python · AWS Lambda · RabbitMQ
+                                    · Meta API · Guardrails · LLM Security</span>
+                            </span>
+                            <svg class="h-5 w-5 shrink-0 transform transition-transform duration-200 text-slate-400"
+                                viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="panel-case-1"
+                            class="overflow-hidden transition-all duration-300 ease-in-out px-5 hidden"
+                            data-accordion-panel>
+                            <div class="pb-5">
+                                <div class="space-y-5 text-sm leading-7 text-slate-300">
+                                    <div>
+                                        <h4 class="text-base font-semibold text-white">Automated Customer Onboarding &
+                                            Secure AI Conversational Engine</h4>
+                                        <p class="mt-1 text-sm text-emerald-300">Node.js · Python · AWS Lambda ·
+                                            RabbitMQ ·
+                                            Meta Embedded Signup · AI Agents</p>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+                                            Challenge & Context</h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li>Designed an automated system enabling multi-tenant business integration
+                                                as
+                                                an official Meta Tech Provider, allowing clients to register their
+                                                WhatsApp
+                                                Business numbers autonomously via Embedded Signup.</li>
+                                            <li>Deployed 24/7 AI-driven conversational assistants capable of executing
+                                                operations like automated appointment scheduling and inquiries, while
+                                                addressing the critical challenge of exposing public LLMs to prompt
+                                                injection, cost abuse, and malicious resource exploitation.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+                                            Architecture & Implementation</h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li><span class="font-medium text-white">Serverless Webhook Gateway:</span>
+                                                Implemented AWS Lambda to ingest high-frequency webhooks and immediate
+                                                messaging payloads from the Meta API with minimal operational cost and
+                                                near-instant scaling.</li>
+                                            <li><span class="font-medium text-white">Asynchronous Message
+                                                    Buffering:</span>
+                                                Integrated a RabbitMQ ingestion layer to decouple high-volume messaging
+                                                events from core LLM processing pipelines, preventing message drops and
+                                                managing downstream LLM rate limits smoothly.</li>
+                                            <li><span class="font-medium text-white">Defensive Guardrail
+                                                    Architecture:</span> Implemented dedicated guardrail layers designed
+                                                to
+                                                capture prompt injections, jailbreaks, and off-topic interactions before
+                                                they reach the orchestration layer, minimizing exposure risks.</li>
+                                            <li><span class="font-medium text-white">Strict Tool & Operation
+                                                    Scoping:</span>
+                                                Configured strict function-calling boundaries and tool limitations per
+                                                session. Designed custom backend rate limiting by phone number and IP,
+                                                coupled with developing operational heuristics to throttle suspicious
+                                                request flows and secure sensitive downstream actions.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+                                            Impact
+                                            & Results</h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li>Enabled friction-free, autonomous B2B user onboarding as a Tech
+                                                Provider,
+                                                eliminating manual setups for client business messaging lines.</li>
+                                            <li>Successfully automated 24/7 core platform interactions
+                                                (appointments/FAQ)
+                                                while preserving complete guardrail-backed defense over token costs, API
+                                                throttling, and security boundaries.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60" data-accordion-item>
+                        <button class="flex w-full items-center justify-between px-5 py-4 text-left" type="button"
+                            data-accordion-button aria-expanded="false" aria-controls="panel-case-2">
+                            <span>
+                                <span class="block text-lg font-semibold text-white">Milestone #2: Distributed
+                                    Observability & Automated Diagnostics Engine</span>
+                                <span class="mt-1 block text-sm text-slate-400">Go · TypeScript · OpenTelemetry · Jaeger
+                                    (gRPC) · Prometheus · Elastic Cloud · Grafana</span>
+                            </span>
+                            <svg class="h-5 w-5 shrink-0 transform transition-transform duration-200 text-slate-400"
+                                viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="panel-case-2"
+                            class="overflow-hidden transition-all duration-300 ease-in-out px-5 hidden"
+                            data-accordion-panel>
+                            <div class="pb-5">
+                                <div class="space-y-5 text-sm leading-7 text-slate-300">
+                                    <div>
+                                        <h4 class="text-base font-semibold text-white">Distributed Observability &
+                                            Context
+                                            Propagation</h4>
+                                        <p class="mt-1 text-sm text-emerald-300">Go · TypeScript · OpenTelemetry ·
+                                            Jaeger ·
+                                            Prometheus · Elastic Cloud · Grafana</p>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+                                            Challenge & Context</h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li>Legacy logging structures lacked correlation, making distributed
+                                                debugging
+                                                across asynchronous microservices a highly time-consuming task where
+                                                engineering teams acted reactively to system failures.</li>
+                                            <li>Required a rapid, high-coverage observability rollout across existing
+                                                backend workflows without introducing excessive engineering overhead or
+                                                slowing down the product roadmap.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+                                            Architecture & Implementation</h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li><span class="font-medium text-white">Hybrid Instrumentation
+                                                    Strategy:</span>
+                                                Leveraged OpenTelemetry's auto-instrumentation SDKs for rapid baseline
+                                                visibility, while progressively embedding manual spans and metrics for
+                                                granular system domain insight.</li>
+                                            <li><span class="font-medium text-white">Distributed Tracing
+                                                    Pipeline:</span>
+                                                Configured OpenTelemetry SDKs to export distributed traces via
+                                                low-overhead
+                                                gRPC protocols directly to Jaeger, centralizing cross-service and
+                                                asynchronous messaging validation.</li>
+                                            <li><span class="font-medium text-white">Multi-Provider Telemetry
+                                                    Topologies:</span> Deployed Prometheus as the core metrics provider
+                                                to
+                                                track system golden signals and fire alerts on critical infrastructure
+                                                anomalies such as memory leaks or pod crashloops. Integrated logging
+                                                pipelines by injecting OpenTelemetry Trace IDs into structured JSON logs
+                                                using Winston (and Go standard structured loggers), streaming them
+                                                directly
+                                                to Elastic Cloud for unified lookup.</li>
+                                            <li><span class="font-medium text-white">Unified Diagnostics Layer:</span>
+                                                Consolidated Prometheus metrics and Jaeger trace visualizers into
+                                                centralized Grafana dashboards to serve as a single pane of glass for
+                                                real-time diagnostics and agentic-ready automated debugging.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+                                            Impact
+                                            & Results</h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li>Drastically slashed Mean Time to Resolution (MTTR) from hours to minutes
+                                                by
+                                                enabling engineers and AI automation workflows to jump seamlessly from
+                                                an
+                                                error log in Elastic Cloud to its exact correlated distributed trace
+                                                graph.
+                                            </li>
+                                            <li>Shifted backend system maintenance from reactive firefighting into a
+                                                reliable, proactive culture driven by early anomaly alerts.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/60" data-accordion-item>
+                        <button class="flex w-full items-center justify-between px-5 py-4 text-left" type="button"
+                            data-accordion-button aria-expanded="false" aria-controls="panel-case-3">
+                            <span>
+                                <span class="block text-lg font-semibold text-white">Milestone #3: Distributed
+                                    Event-Driven Integration (Go + RabbitMQ)</span>
+                                <span class="mt-1 block text-sm text-slate-400">Go · RabbitMQ · PostgreSQL · OAuth
+                                    2.0</span>
+                            </span>
+                            <svg class="h-5 w-5 shrink-0 transform transition-transform duration-200 text-slate-400"
+                                viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="panel-case-3"
+                            class="overflow-hidden transition-all duration-300 ease-in-out px-5 hidden"
+                            data-accordion-panel>
+                            <div class="pb-5">
+                                <div class="space-y-5 text-sm leading-7 text-slate-300">
+                                    <div>
+                                        <h4 class="text-base font-semibold text-white">Event-Driven Third-Party Calendar
+                                            Integration</h4>
+                                        <p class="mt-1 text-sm text-emerald-300">Go · RabbitMQ · PostgreSQL · OAuth 2.0
+                                        </p>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+                                            Challenge & Context</h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li>Built a highly available, multi-tenant integration to synchronize
+                                                platform
+                                                appointment lifecycles with external user calendars in real time.</li>
+                                            <li>The system needed to process high volumes of concurrent operations per
+                                                tenant without impacting the core platform's performance or introducing
+                                                tight coupling with external APIs.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">
+                                            Architecture & Implementation</h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li><span class="font-medium text-white">Distributed OAuth Setup:</span>
+                                                Implemented an isolated Integration Gateway service to manage secure
+                                                token
+                                                storage and authentication flows.</li>
+                                            <li><span class="font-medium text-white">Event-Driven Orchestration:</span>
+                                                Deployed a RabbitMQ Topic Exchange topology. The core application
+                                                publishes
+                                                lifecycle events such as Created, Updated, and Cancelled, which are
+                                                asynchronously consumed by the integration layer.</li>
+                                            <li><span class="font-medium text-white">Smart State Caching:</span> Local
+                                                database schemas mirror external resource mappings, acting as an
+                                                idempotent
+                                                read-cache to reduce third-party API rate-limiting overhead and ensure
+                                                transactional traceability.</li>
+                                            <li><span class="font-medium text-white">Complex State Mutations:</span>
+                                                Handled
+                                                complex lifecycle operations asynchronously, including resource
+                                                reassignment
+                                                flows that trigger combined deletion and atomic creation logic.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="space-y-3 rounded-xl border border-white/10 bg-slate-950/50 p-4">
+                                        <h4 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">Why
+                                            Go?
+                                        </h4>
+                                        <ul class="space-y-2 pl-5 list-disc">
+                                            <li>Selected Go for the consumer engine due to its exceptional concurrency
+                                                efficiency with goroutines and a low memory footprint, preventing
+                                                bottleneck
+                                                risks during peak multi-tenant scheduling activity.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact" class="mt-20">
+            <!-- CONTACT CTA CARD -->
+            <div
+                class="rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900/80 to-slate-950 p-8 text-center shadow-2xl relative overflow-hidden md:p-12">
+                <!-- Subtle background glow -->
+                <div
+                    class="absolute -top-24 -left-24 w-48 h-48 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none">
+                </div>
+                <div
+                    class="absolute -bottom-24 -right-24 w-48 h-48 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none">
+                </div>
+
+                <div class="max-w-2xl mx-auto space-y-6 relative z-10">
+                    <p class="text-sm uppercase tracking-[0.25em] text-emerald-400 font-medium">Let's Connect</p>
+                    <h3 class="text-3xl font-semibold text-white sm:text-4xl tracking-tight">Let's build reliable
+                        software together.</h3>
+                    <p class="text-base leading-7 text-slate-400">
+                        If you need an engineer focused on clear architecture, robust observability pipelines, and
+                        secure automation workflows—let’s talk.
+                    </p>
+
+                    <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
+                        <a href="mailto:gianamauricio98@gmail.com"
+                            class="w-full sm:w-auto inline-flex justify-center items-center rounded-full bg-emerald-500 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-400 shadow-lg shadow-emerald-500/10">
+                            Get in touch via Email
+                        </a>
+                        <a href="https://linkedin.com/in/mauricio-giana-dev" target="_blank" rel="noreferrer"
+                            class="w-full sm:w-auto inline-flex justify-center items-center rounded-full border border-white/10 px-6 py-3 text-sm font-semibold text-slate-300 transition hover:border-emerald-400/50 hover:text-emerald-300 bg-slate-900/40">
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/MauricioGiana" target="_blank" rel="noreferrer"
+                            class="w-full sm:w-auto inline-flex justify-center items-center rounded-full border border-white/10 px-6 py-3 text-sm font-semibold text-slate-300 transition hover:border-emerald-400/50 hover:text-emerald-300 bg-slate-900/40">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SUB FOOTER -->
+            <div class="mt-12 border-t border-white/5 pt-6 pb-4 text-center text-xs text-slate-500">
+                <p>© 2026 Mauricio Giana. Designed for performance, security, and agentic delivery.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const accordionButtons = document.querySelectorAll('[data-accordion-button]');
+
+        // Initialize states cleanly on load
+        accordionButtons.forEach((button) => {
+            const item = button.closest('[data-accordion-item]');
+            const panel = item?.querySelector('[data-accordion-panel]');
+            const icon = button.querySelector('svg');
+            const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+            if (panel) {
+                if (isExpanded) {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                    panel.style.opacity = "1";
+                    panel.classList.remove('hidden');
+                    if (icon) icon.classList.add('rotate-180');
+                } else {
+                    panel.style.maxHeight = "0px";
+                    panel.style.opacity = "0";
+                    panel.classList.add('hidden');
+                }
+            }
+        });
+
+        // Handle clicks with accurate dimension calculations
+        accordionButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                const item = button.closest('[data-accordion-item]');
+                const panel = item?.querySelector('[data-accordion-panel]');
+                const icon = button.querySelector('svg');
+
+                const isExpanded = button.getAttribute('aria-expanded') === 'true';
+                const nextExpanded = !isExpanded;
+
+                button.setAttribute('aria-expanded', String(nextExpanded));
+                if (icon) icon.classList.toggle('rotate-180', nextExpanded);
+
+                if (panel) {
+                    if (nextExpanded) {
+                        // 1. Reveal element structure to allow dimension reading
+                        panel.classList.remove('hidden');
+                        panel.style.maxHeight = "none";
+
+                        // 2. Read the absolute unconstrained height of the content
+                        const targetHeight = panel.scrollHeight + "px";
+
+                        // 3. Reset to zero immediately before the animation frame cycles
+                        panel.style.maxHeight = "0px";
+
+                        // 4. Trigger transition smoothly on the next render cycle
+                        requestAnimationFrame(() => {
+                            requestAnimationFrame(() => {
+                                panel.style.maxHeight = targetHeight;
+                                panel.style.opacity = "1";
+                            });
+                        });
+                    } else {
+                        // Capture current height explicitly to avoid snap jumps on close
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+
+                        // Force a reflow execution
+                        panel.offsetHeight;
+
+                        // Animate down to absolute zero cleanly
+                        panel.style.maxHeight = "0px";
+                        panel.style.opacity = "0";
+
+                        setTimeout(() => {
+                            if (button.getAttribute('aria-expanded') === 'false') {
+                                panel.classList.add('hidden');
+                            }
+                        }, 300);
+                    }
+                }
+            });
+        });
+
+        const header = document.getElementById('main-header');
+        const headerTitle = document.getElementById('header-title');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // 1. Header Collapse Control (Scroll)
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 40) {
+                // Apply compressed header styling (translucent background and borders)
+                header.classList.remove('border-white/0', 'bg-transparent');
+                header.classList.add('border-b', 'border-white/10', 'bg-slate-950/80', 'backdrop-blur-md');
+
+                // Collapse title space smoothly without altering layout flow
+                headerTitle.classList.add('scale-0', 'opacity-0', 'max-h-0', 'pointer-events-none');
+                headerTitle.classList.remove('scale-100', 'opacity-100', 'max-h-20');
+            } else {
+                // Return to initial expanded, clean state when at the top
+                header.classList.remove('border-b', 'border-white/10', 'bg-slate-950/80', 'backdrop-blur-md');
+                header.classList.add('border-white/0', 'bg-transparent');
+                headerTitle.classList.remove('scale-0', 'opacity-0', 'max-h-0', 'pointer-events-none');
+                headerTitle.classList.add('scale-100', 'opacity-100', 'max-h-20');
+            }
+        });
+
+        // 2. Scrollspy Logic - Corregido y optimizado
+        const sections = document.querySelectorAll('section[id], footer[id]');
+        const observerOptions = {
+            root: null,
+            rootMargin: '-30% 0px -50% 0px', // Ajustado para mejorar la entrada al hacer scroll
+            threshold: 0
+        };
+
+        function setLinkActive(activeId) {
+            navLinks.forEach(link => {
+                const isCurrent = link.getAttribute('data-section') === activeId;
+                if (isCurrent) {
+                    link.classList.remove('text-slate-400');
+                    link.classList.add('text-emerald-400', 'font-medium');
+                } else {
+                    link.classList.remove('text-emerald-400', 'font-medium');
+                    link.classList.add('text-slate-400');
+                }
+            });
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+
+                    // Keep Experience active when either the experience or cases section is in view
+                    if (['cases', 'experience'].includes(id)) {
+                        setLinkActive('experience');
+                    } else {
+                        setLinkActive(id);
+                    }
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+</body>
+
+</html>
