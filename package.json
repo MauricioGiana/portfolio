@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio and single-page technical resume showcasing backend engineering, system architecture, observability, and agentic workflows.",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioGiana/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "backend-engineer",
+    "systems-architecture",
+    "go",
+    "typescript",
+    "tailwindcss",
+    "opentelemetry"
+  ],
+  "author": "Mauricio Giana <gianamauricio98@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauricioGiana/portfolio/issues"
+  },
+  "homepage": "https://github.com/MauricioGiana/portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
