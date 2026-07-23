@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="Portfolio of Mauricio Giana, a Backend Engineer focused on reliable systems, APIs, observability, and intelligent automation." />
+    <meta property="og:title" content="Mauricio Giana | Backend Engineer" />
+    <meta property="og:description"
+        content="Focused on reliable architecture, distributed systems, and agentic delivery." />
+    <meta property="og:type" content="website" />
     <title>Mauricio Giana | Backend Engineer</title>
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
@@ -67,7 +71,7 @@
                     class="flex flex-wrap items-center gap-4 pb-3 text-sm text-slate-400 sm:ml-auto sm:pb-0">
                     <!-- Botón Home siempre visible -->
                     <a class="nav-link transition-colors duration-200 text-slate-400 hover:text-emerald-300 flex items-center"
-                        href="#" aria-label="Home" data-section="home">
+                        href="#top" aria-label="Home" data-section="home">
                         <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
                             <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
@@ -156,25 +160,76 @@
                 </div>
             </section>
 
-            <section id="about" class="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-                <div class="space-y-3">
-                    <p class="text-sm uppercase tracking-[0.25em] text-emerald-400">About</p>
-                    <h3 class="text-2xl font-semibold text-white">Engineering with a systems mindset.</h3>
+            <section id="about" class="space-y-6">
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                    <div>
+                        <p class="text-sm uppercase tracking-[0.25em] text-emerald-400">About</p>
+                        <h3 class="text-2xl font-semibold text-white">Engineering with a systems mindset.</h3>
+                    </div>
                 </div>
-                <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6 text-slate-300">
-                    <p class="leading-8">
-                        I am a backend engineer with a strong foundation in software design, distributed systems, and
-                        secure development.
-                        My work has centered on building integrations, messaging flows, and internal platforms that
-                        connect business value
-                        with reliable execution.
-                    </p>
-                    <p class="mt-4 leading-8">
-                        Over time, my workflow has evolved toward agentic engineering: combining AI tools and automation
-                        with disciplined
-                        architecture so that the highest-value work stays focused on design, resilience, and
-                        problem-solving.
-                    </p>
+
+                <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6 sm:p-8 text-slate-300 space-y-6">
+                    <div class="grid gap-6 lg:grid-cols-2 text-slate-300 leading-8">
+                        <p>
+                            I am a Backend Engineer with a background in engineering systems, which trained me to view
+                            code
+                            through a lens of logic, efficiency, and structural constraints. I don't build software just
+                            to
+                            close tickets or blindly follow spec sheets. Instead, I apply a Doubt-Driven Development
+                            mindset, questioning assumptions, validating edge cases early, and actively proposing
+                            optimal
+                            paths that serve real business needs.
+                        </p>
+                        <p>
+                            Over time, my workflow has evolved into Agentic Engineering: combining AI-driven automation
+                            (MCPs, custom agents, LLM integrations) with disciplined architecture so that my main focus
+                            remains on high-leverage work: system design, security, and resilience.
+                        </p>
+                    </div>
+
+                    <div class="pt-2 border-t border-white/10">
+                        <h4 class="text-xs font-semibold uppercase tracking-[0.25em] text-emerald-400 mb-4 mt-2">
+                            Engineering principles
+                        </h4>
+                        <div class="grid gap-4 md:grid-cols-2">
+                            <div class="rounded-xl border border-emerald-500/20 bg-emerald-500/10 p-4">
+                                <p class="font-semibold text-white flex items-center gap-2">
+                                    <span>💡</span> Doubt-Driven & Active Ownership
+                                </p>
+                                <p class="mt-1 text-sm leading-6 text-slate-300">
+                                    Questioning requirements early to find the most pragmatic and optimal technical
+                                    solution, rather than acting as a simple ticket-executor.
+                                </p>
+                            </div>
+                            <div class="rounded-xl border border-emerald-500/20 bg-emerald-500/10 p-4">
+                                <p class="font-semibold text-white flex items-center gap-2">
+                                    <span>🛠️</span> Pragmatism over Hype
+                                </p>
+                                <p class="mt-1 text-sm leading-6 text-slate-300">
+                                    Choosing the right tool for the problem based on actual system needs, trade-offs,
+                                    and long-term maintainability.
+                                </p>
+                            </div>
+                            <div class="rounded-xl border border-emerald-500/20 bg-emerald-500/10 p-4">
+                                <p class="font-semibold text-white flex items-center gap-2">
+                                    <span>🛡️</span> Security & Observability by Default
+                                </p>
+                                <p class="mt-1 text-sm leading-6 text-slate-300">
+                                    Applying security boundaries (OWASP, AuthN/AuthZ) and distributed observability as
+                                    systems scale and complexity demands it.
+                                </p>
+                            </div>
+                            <div class="rounded-xl border border-emerald-500/20 bg-emerald-500/10 p-4">
+                                <p class="font-semibold text-white flex items-center gap-2">
+                                    <span>🤖</span> Agentic-First Delivery
+                                </p>
+                                <p class="mt-1 text-sm leading-6 text-slate-300">
+                                    Automating repetitive tasks to free up focus for system architecture, code quality,
+                                    and technical decisions that directly drive business goals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
